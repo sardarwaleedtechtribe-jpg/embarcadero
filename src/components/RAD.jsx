@@ -29,19 +29,22 @@ function RAD() {
             </div>
             <div className="relative w-96 h-96 mr-30 ">
                 
-                <img src={img1} alt="RAD" className="absolute top-54 right-101 w-16 h-16" />
-                <img src={img4} alt="RAD" className="absolute top-26 right-101 w-16 h-16" />
-                <img src={img3} alt="RAD" className="absolute top-4 right-85 w-16 h-16" />
-                <img src={img8} alt="iOS" className="absolute bottom-3 right-85 w-16 h-16" />
-                <img src={img5} alt="RAD" className="absolute top-1/2 right-35 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20" />
+                <img src={img1} alt="RAD" className="absolute top-54 right-101 w-16 h-16 z-1" />
+                <img src={img4} alt="RAD" className="absolute top-26 right-101 w-16 h-16 z-1" />
+                <img src={img3} alt="RAD" className="absolute top-4 right-85 w-16 h-16 z-1" />
+                <img src={img8} alt="iOS" className="absolute bottom-3 right-85 w-16 h-16 z-1" />
+                <img src={img5} alt="RAD" className="absolute top-1/2 right-35 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 z-1" />
                
 
-                <img src={img2} alt="RAD" className="absolute -top-5 right-9 w-16 h-16" />
-                <img src={img6} alt="Android"className="absolute top-20 -right-6 w-16 h-16" />
-                <img src={img7} alt="Apple"className="absolute top-40 -right-18 w-16 h-16" />
-                <img src={img9} alt="Linux"className="absolute bottom-18 -right-6 w-16 h-16" />
-                <img src={img10} alt="Microsoft"    className="absolute top-85 -right-1 transform -translate-x-1/2 w-16 h-16" />
-                {/* <img src={img11} alt="Vector"className="absolute bottom-24 left-1 w-18 h-8" /> */}
+                <img src={img2} alt="RAD" className="absolute -top-5 right-9 w-16 h-16  z-1"/>
+                <img src={img6} alt="Android"className="absolute top-20 -right-6 w-16 h-16 z-1" />
+                <img src={img7} alt="Apple"className="absolute top-40 -right-18 w-16 h-16 z-1" />
+                <img src={img9} alt="Linux"className="absolute bottom-18 -right-6 w-16 h-16 z-1" />
+                <img src={img10} alt="Microsoft"    className="absolute top-85 -right-1 transform -translate-x-1/2 w-16 h-16 z-1" />
+                <img src={img11} alt="Vector"className="absolute  bottom-8 right-50 w-50 h-50 z-0" />
+                {/* <img src={img12} alt="Vector"className="absolute  bottom-8 right-50 w-50 h-50 z-0" /> */}
+                <img src={img13} alt="Vector"className="absolute  bottom-8 right-10 w-50 h-50 z-0" />
+                <img src={img14} alt="Vector"className="absolute  bottom-30 right-60 w-50 h-50 z-0" />
             </div>
         </div>
     );

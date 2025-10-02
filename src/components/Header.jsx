@@ -9,7 +9,7 @@ function Header() {
                 <div className="flex h-12 items-center justify-between">
                     <div className="flex gap-3 text-xs font-semibold tracking-tight -mt-1 -ml-2 ">
                         <p >See what's new in Delphi, C++ Builder, and RAD Studio </p>
-                        <a href="https://seinfeldquotes.com" className="underline underline-offset-2 text-white-600 visited:text-purple-600 ..."> Inspiration </a>
+                        <a href="#" className="underline underline-offset-2 text-white-600 visited:text-purple-600 ..."> Watch The Replay </a>
                     </div>
                     <nav className="flex items-center gap-6 text-xs">
                         <a href="#" className="hover:text-blue-200 transition-colors">My Downloads</a>
