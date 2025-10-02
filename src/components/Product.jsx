@@ -1,10 +1,10 @@
 import React from "react";
 import { FaArrowDownLong } from "react-icons/fa6";
-import img1 from '../assets/image19.jpg';
-import img2 from '../assets/image20.jpg';
-import img3 from '../assets/image21.jpg';
-import img4 from '../assets/image22.jpg';
-import img5 from '../assets/image23.jpg';
+import img1 from '../assets/image19.svg';
+import img2 from '../assets/image20.svg';
+import img3 from '../assets/image21.svg';
+import img4 from '../assets/image22.svg';
+import img5 from '../assets/image23.svg';
 
 function Product() {
     return (
@@ -15,7 +15,7 @@ function Product() {
                     <p className="text-2xl text-gray-600 mt-8 -ml-9">Trusted by Over Three Million Developers Worldwide.</p>
                         <div className='m-15'>
                             <div className="flex flex-col lg:flex-row gap-4 items-center -mt-5 ml-6">
-                                <img src={img4} alt="logo1" />
+                                <img className="w-12  h-12" src={img4} alt="logo1" />
                                 <img src={img1} alt="logo2" />
                                 <img src={img5} alt="logo3" />
                                 <img src={img2} alt="logo4" />

@@ -10,6 +10,7 @@ function Home(){
             <Header />
             <Navbar />
             <Product />
+            {/* <br/> */}
             <RAD />
         </div>
     )
