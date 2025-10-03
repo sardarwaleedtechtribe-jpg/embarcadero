@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../assets/embarcader.svg';
-import NavMenu from './NavMenu';
+import logo from '../Assets/embarcader.svg';
+import NavMenu from '../Component/NavMenu';
 
 function Navbar() {
     return (

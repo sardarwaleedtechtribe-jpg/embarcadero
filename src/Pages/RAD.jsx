@@ -1,6 +1,6 @@
 import React from "react";
-import img3 from '../assets/image3.svg';
-import img6 from '../assets/image22.svg';
+import img3 from '../Assets/image3.svg';
+import img6 from '../Assets/image22.svg';
 
 
 function RAD() {

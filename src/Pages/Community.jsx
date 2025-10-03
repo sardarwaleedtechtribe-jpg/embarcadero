@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from '../assets/map.svg';
+import img1 from '../Assets/map.svg';
 
 
 function Community() {

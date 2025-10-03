@@ -1,11 +1,11 @@
 import React from 'react';
-import img1 from '../assets/logo3.svg';
-import img2 from '../assets/logo2.svg';
-import img3 from '../assets/logo1.svg';
-import img4 from '../assets/logo4.svg';
-import img5 from '../assets/logo5.svg';
-import img6 from '../assets/logo7.svg';
-import img7 from '../assets/logo6.svg';
+import img1 from '../Assets/logo3.svg';
+import img2 from '../Assets/logo2.svg';
+import img3 from '../Assets/logo1.svg';
+import img4 from '../Assets/logo4.svg';
+import img5 from '../Assets/logo5.svg';
+import img6 from '../Assets/logo7.svg';
+import img7 from '../Assets/logo6.svg';
 
 
 function Companies() {

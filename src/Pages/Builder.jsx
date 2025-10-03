@@ -1,6 +1,6 @@
 import React from 'react';
-import img3 from '../assets/image2.svg';
-import img6 from '../assets/image23.svg';
+import img3 from '../Assets/image2.svg';
+import img6 from '../Assets/image23.svg';
 
 function Builder() {
     return (
