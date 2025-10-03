@@ -14,6 +14,7 @@ function InterBase() {
                     <button className="px-6 py-2 bg-black text-white rounded-lg hover:bg-white hover:text-black transition border-2 border-grey-1200">Start a Free Trial</button>
                     <button className="px-6 py-2 bg-white text-gray-800 rounded-lg border-2 border-grey-1200 hover:bg-black hover:text-white transition">Learn More</button>
                 </div>
+                {/* 11111 */}
             </div>
             <div className="relative w-[700px] h-[700px] mr-15 ml-auto flex justify-end">
                 <img src={img3} alt="InterBase" className="w-[3500px] h-[700px]" />
