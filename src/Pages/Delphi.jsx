@@ -1,6 +1,6 @@
 import React from 'react';
-import img3 from '../Assets/image5.svg';
-import img6 from '../Assets/image19.svg';
+import img3 from '/Assets/image5.svg';
+import img6 from '/Assets/image19.svg';
 
 function Delphi() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import img3 from '../Assets/image4.svg';
-import img6 from '../Assets/image20.svg';
+import img3 from '/Assets/image4.svg';
+import img6 from '/Assets/image20.svg';
 
 function InterBase() {
     return (

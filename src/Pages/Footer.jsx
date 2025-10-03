@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../Assets/embarcader.svg';
+import logo from '/Assets/embarcader.svg';
 import { FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa";

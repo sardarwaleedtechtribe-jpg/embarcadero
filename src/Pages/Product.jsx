@@ -1,10 +1,10 @@
 import React from "react";
 import { FaArrowDownLong } from "react-icons/fa6";
-import img1 from '../Assets/image19.svg';
-import img2 from '../Assets/image20.svg';
-import img3 from '../Assets/image21.svg';
-import img4 from '../Assets/image22.svg';
-import img5 from '../Assets/image23.svg';
+import img1 from '/Assets/image19.svg';
+import img2 from '/Assets/image20.svg';
+import img3 from '/Assets/image21.svg';
+import img4 from '/Assets/image22.svg';
+import img5 from '/Assets/image23.svg';
 
 function Product() {
     return (
