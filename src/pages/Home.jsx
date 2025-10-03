@@ -3,6 +3,13 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Product from '../components/Product';
 import RAD from '../components/RAD';
+import Delphi from '../components/Delphi';
+import InterBase from '../components/InterBAse';
+import Builder from '../components/Builder';
+import RADServer from '../components/RADServer';
+import Companies from '../components/Companies';
+import Community from '../components/Community';
+import Footer from '../components/Footer';
 
 function Home(){
     return(
@@ -10,8 +17,14 @@ function Home(){
             <Header />
             <Navbar />
             <Product />
-            {/* <br/> */}
             <RAD />
+            <Delphi />
+            <Builder />
+            <InterBase />
+            <RADServer />
+            <Companies />
+            <Community />
+            <Footer />
         </div>
     )
 }
