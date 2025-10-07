@@ -10,25 +10,24 @@ import img7 from '/Assets/logo6.svg';
 
 function Companies() {
     return (
-        <div className="w-full h-85 p-4 bg-gradient-to-r from-blue-100 via-pink-50 to-red-100 flex justify-between items-center">
-            <div className="w-full flex flex-col items-center ">
-                <div className="w-full mb-4 flex justify-center">
-                    <p className="text-center text-xl font-semibold">
+        <div className="w-full min-w-full px-4 py-8 -mb-25 sm:py-12 bg-gradient-to-r from-blue-100 via-pink-50 to-red-100 flex flex-col items-center gap-6 sm:gap-8">
+            <div className="w-full flex flex-col items-center">
+                <div className="w-full flex justify-center">
+                    <p className="text-center text-base sm:text-lg md:text-xl font-semibold max-w-4xl">
                         The world's leading companies rely on software built with Embarcadero products
                     </p>
                 </div>
-                <div className="flex flex-wrap justify-center gap-8 items-center mt-4 mb-30 w-full max-w-7xl">
+                <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-8 mt-4 mb-20 w-full max-w-7xl">
                     {[img1, img2, img3, img4, img5, img6, img7].map((img, idx) => (
                         <img
                             key={idx}
-                            className="w-28 h-20 mb-5 object-contain transition-transform duration-300 hover:scale-110"
+                            className="w-20 sm:w-24 md:w-28 h-12 sm:h-16 md:h-20 object-contain transition-transform duration-300 hover:scale-110"
                             src={img}
                             alt={`company logo ${idx + 1}`}
                         />
                     ))}
                 </div>
             </div>
-
         </div>
     );
 }

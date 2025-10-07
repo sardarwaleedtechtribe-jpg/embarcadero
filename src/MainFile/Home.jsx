@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from '../Pages/Navbar';
+
 import Header from '../Pages/Header';
+import Navbar from '../Pages/Navbar';
 import Product from '../Pages/Product';
 import RAD from '../Pages/RAD';
 import Delphi from '../Pages/Delphi';
@@ -13,8 +14,8 @@ import Footer from '../Pages/Footer';
 
 function Home(){
     return(
-        <div className="w-full min-h-screen bg-gray-50">
-            <Header />
+        <div className="w-screen min-h-screen bg-gray-50">
+            {/* <Header /> */}
             <Navbar />
             <Product />
             <RAD />
@@ -24,7 +25,7 @@ function Home(){
             <RADServer />
             <Companies />
             <Community />
-            <Footer />
+            <Footer /> 
         </div>
     )
 }
