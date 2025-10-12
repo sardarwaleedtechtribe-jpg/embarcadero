@@ -82,20 +82,20 @@ const NAV_ITEMS = [
   { label: "New Tools", hasDropdown: false },
 ];
 
-const ProductsDropdown = () => (
-  <div className="p-6 w-150 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+const ProductsDropdown = ({ isSidebar = false }) => (
+  <div className={`${isSidebar ? 'p-4' : 'p-6'} ${isSidebar ? 'w-full' : 'w-150'} ${isSidebar ? 'grid grid-cols-1' : 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'} gap-4`}>
     {DROPDOWN_CONTENT.products.columns.map((column, index) => (
       <div key={column.title} className={index > 0 ? "md:mt-0 mt-4" : ""}>
-        <h3 className="font-medium text-lg mb-3 text-gray-900">
+        <h3 className={`font-medium ${isSidebar ? 'text-sm' : 'text-lg'} mb-2 text-gray-900`}>
           {column.title}
         </h3>
-        <div className="space-y-3 w-70">
+        <div className={`space-y-2 ${isSidebar ? 'w-full' : 'w-70'}`}>
           {column.tools.map((tool) => (
             <div key={tool.name}>
-              <h4 className="font-medium text-base text-gray-800 mb-1">
+              <h4 className={`font-medium ${isSidebar ? 'text-xs' : 'text-base'} text-gray-800 mb-1`}>
                 {tool.name}
               </h4>
-              <p className="text-sm text-gray-600">{tool.description}</p>
+              <p className={`${isSidebar ? 'text-xs' : 'text-sm'} text-gray-600`}>{tool.description}</p>
             </div>
           ))}
         </div>
@@ -104,17 +104,17 @@ const ProductsDropdown = () => (
   </div>
 );
 
-const FreeToolsDropdown = () => (
-  <div className="p-4 w-64">
-    <h3 className="font-medium text-lg text-gray-900 mb-3">
+const FreeToolsDropdown = ({ isSidebar = false }) => (
+  <div className={`${isSidebar ? 'p-3' : 'p-4'} ${isSidebar ? 'w-full' : 'w-64'}`}>
+    <h3 className={`font-medium ${isSidebar ? 'text-sm' : 'text-lg'} text-gray-900 mb-2`}>
       {DROPDOWN_CONTENT.freeTools.title}
     </h3>
-    <ul className="space-y-2">
+    <ul className="space-y-1">
       {DROPDOWN_CONTENT.freeTools.items.map((tool) => (
         <li key={tool}>
           <a
             href="#"
-            className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 rounded-md transition-colors"
+            className={`block px-3 py-1 ${isSidebar ? 'text-xs' : 'text-sm'} text-gray-700 hover:bg-gray-50 hover:text-gray-900 rounded-md transition-colors`}
           >
             {tool}
           </a>
@@ -124,19 +124,19 @@ const FreeToolsDropdown = () => (
   </div>
 );
 
-const ResourcesDropdown = () => (
-  <div className="p-4 w-[780px] flex gap-8">
+const ResourcesDropdown = ({ isSidebar = false }) => (
+  <div className={`${isSidebar ? 'p-3' : 'p-4'} ${isSidebar ? 'w-full' : 'w-[780px]'} ${isSidebar ? 'flex flex-col' : 'flex'} gap-4`}>
     {DROPDOWN_CONTENT.resources.sections.map((section) => (
-      <div key={section.title} className="flex-1 min-w-0">
-        <h3 className="font-medium text-lg text-gray-900 mb-3">
+      <div key={section.title} className={`${isSidebar ? 'w-full' : 'flex-1 min-w-0'}`}>
+        <h3 className={`font-medium ${isSidebar ? 'text-sm' : 'text-lg'} text-gray-900 mb-2`}>
           {section.title}
         </h3>
-        <ul className="space-y-2">
+        <ul className="space-y-1">
           {section.items.map((item) => (
             <li key={item}>
               <a 
                 href="#" 
-                className="block px-3 py-1 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 rounded transition-colors"
+                className={`block px-3 py-1 ${isSidebar ? 'text-xs' : 'text-sm'} text-gray-700 hover:bg-gray-50 hover:text-gray-900 rounded transition-colors`}
               >
                 {item}
               </a>
@@ -189,15 +189,15 @@ export default function NavMenu({ isSidebar = false, onItemClick }) {
   const renderDropdownContent = useCallback((label) => {
     switch (label) {
       case "Products":
-        return <ProductsDropdown />;
+        return <ProductsDropdown isSidebar={isSidebar} />;
       case "Free Tools":
-        return <FreeToolsDropdown />;
+        return <FreeToolsDropdown isSidebar={isSidebar} />;
       case "Resources":
-        return <ResourcesDropdown />;
+        return <ResourcesDropdown isSidebar={isSidebar} />;
       default:
         return null;
     }
-  }, []);
+  }, [isSidebar]);
 
   // Different layouts for desktop vs sidebar
   if (isSidebar) {
