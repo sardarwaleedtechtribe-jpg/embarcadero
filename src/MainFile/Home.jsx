@@ -14,7 +14,7 @@ import Footer from '../Pages/Footer';
 
 function Home(){
     return(
-        <div className="w-screen min-h-screen bg-gray-50">
+            <div className="w-full   min-h-screen bg-gray-50">
             {/* <Header /> */}
             <Navbar />
             <Product />
@@ -25,9 +25,10 @@ function Home(){
             <RADServer />
             <Companies />
             <Community />
-            <Footer /> 
+            <Footer />       
         </div>
-    )
+    );
 }
+
 
 export default Home;
