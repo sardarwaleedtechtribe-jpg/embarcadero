@@ -4,7 +4,7 @@ import { MdArrowDropDown } from 'react-icons/md';
 function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
-    <header className="w-full bg-black text-white">
+    <header className="w-full bg-black text-white z-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-24 sm:h-20 items-center flex-col gap-4 sm:flex-row sm:justify-between sm:gap-0">
           <div className="flex flex-col sm:flex-row gap-3 text-xs font-semibold tracking-tight mt-2 -ml-2 ">

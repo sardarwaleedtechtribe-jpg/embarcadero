@@ -16,7 +16,11 @@ const Product = () => {
   ];
 
   return (
-    <div className="w-full xs:min-h-[40vh] sm:min-h-[30vh] md:min-h-screen lg:min-h-screen flex items-start md:items-center justify-center px-2 xs:px-3 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-100 via-pink-50 to-red-100 overflow-x-hidden">
+    <div className="w-full xs:min-h-[40vh] sm:min-h-[30vh] md:min-h-screen lg:min-h-screen flex items-start md:items-center justify-center px-2 xs:px-3 sm:px-6 lg:px-8 ">
+      <div className="absolute bg-blue-500 opacity-10"
+        style={{ width: '765px', height: '1090px',top: '-156px',left: '-156px', filter: 'blur(50px)' }}/>
+      <div className="absolute opacity-5"
+        style={{ width: '900px', height: '1090px', top: '-250px', left: '900px', backgroundColor: '#E11D48', filter: 'blur(80px)' }}/>
       <div className="w-full flex flex-col items-center justify-center">
         <div className="w-full flex flex-col items-center text-center mt-16 xs:mt-20 sm:mt-8 md:mt-0">
           <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-7xl  lg:text-8xl xl:text-5xl 2xl:text-6xl font-semibold bg-gradient-to-r from-fuchsia-600 via-pink-600 to-fuchsia-600 bg-clip-text text-transparent px-2 xs:px-4 mt-2 xs:mt-4 sm:mt-6 md:mt-0">

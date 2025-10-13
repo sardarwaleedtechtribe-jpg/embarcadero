@@ -1,0 +1,9 @@
+      <div
+        className="absolute bg-blue-500 opacity-10"
+        style={{
+          width: '765px',
+          height: '765px',
+          top: '-156px',
+          left: '-156px'
+        }}
+      ></div>
