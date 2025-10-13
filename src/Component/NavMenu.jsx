@@ -148,14 +148,7 @@ const ResourcesDropdown = ({ isSidebar = false }) => (
   </div>
 );
 
-/**
- * NavMenu Component
- * A responsive navigation menu with dropdown functionality
- * @param {Object} props - Component props
- * @param {boolean} props.isSidebar - Whether the menu is in sidebar mode
- * @param {Function} props.onItemClick - Callback when a menu item is clicked (for sidebar)
- * @returns {JSX.Element} The navigation menu component
- */
+
 export default function NavMenu({ isSidebar = false, onItemClick }) {
   const [openDropdown, setOpenDropdown] = useState(null);
 
