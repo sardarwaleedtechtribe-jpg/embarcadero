@@ -15,7 +15,7 @@ import Footer from '../Pages/Footer';
 function Home(){
     return(
             <div className="w-full   min-h-screen bg-gray-50">
-            {/* <Header /> */}
+            <Header />
             <Navbar />
             <Product />
             <RAD />

@@ -36,23 +36,43 @@ function Navbar() {
                 {["Sign In", "Buy Now"].map((label) => (
                   <button
                     key={label}
-                    className="text-left px-3 py-1 rounded-lg border border-transparent bg-transparent text-black transition-all hover:border-gray-800 active:bg-black active:text-white"
+                    className="cursor-pointer text-left px-3 py-1 rounded-lg border border-transparent bg-transparent text-black transition-all hover:border-gray-800 active:bg-black active:text-white"
                   >
                     {label}
                   </button>
                 ))}
               </div>
 
-              <button className="text-left px-3 py-1 rounded-lg border border-transparent bg-transparent text-black transition-all hover:border-gray-800 active:bg-black active:text-white">
+              <button className="cursor-pointer text-left px-3 py-1 rounded-lg border border-black bg-black text-white transition-colors duration-150 hover:bg-gray-500 hover:text-white active:bg-white active:text-black">
+
                 Free Trial
               </button>
 
-              <button onClick={toggleSidebar} className="p-2 rounded-md text-gray-700 hover:text-black hover:bg-gray-100  xl:hidden" aria-label="Toggle navigation menu">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <button
+                onClick={toggleSidebar}
+                className="cursor-pointer p-2 rounded-md text-gray-700 hover:text-black hover:bg-gray-100  xl:hidden"
+                aria-label="Toggle navigation menu"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
                   {isSidebarOpen ? (
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
                   ) : (
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
                   )}
                 </svg>
               </button>
