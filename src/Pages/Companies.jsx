@@ -10,7 +10,7 @@ import img7 from '/Assets/logo6.svg';
 
 function Companies() {
     return (
-        <div className="w-full min-w-full px-4 py-8 -mb-25 sm:py-12 bg-gradient-to-r from-blue-100 via-pink-50 to-red-100 flex flex-col items-center gap-6 sm:gap-8">
+        <div className="w-full min-w-full px-4 py-8 -mb-25 sm:py-12 flex flex-col items-center gap-6 sm:gap-8">
             <div className="w-full flex flex-col items-center">
                 <div className="w-full flex justify-center">
                     <p className="text-center text-base sm:text-lg md:text-xl font-semibold max-w-4xl">

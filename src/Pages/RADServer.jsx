@@ -4,7 +4,7 @@ import img6 from '/Assets/image20.svg';
 
 function RADServer() {
     return (
-        <div className="w-full px-4 py-8 sm:py-12 bg-gradient-to-r from-blue-100 via-pink-50 to-red-100">
+        <div className="w-full px-4 py-8 sm:py-12 ">
             <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-8 md:gap-12">
                 <div className="w-full md:w-1/2 md:ml-5 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">
                     <img src={img6} alt="RAD Server" className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105" />

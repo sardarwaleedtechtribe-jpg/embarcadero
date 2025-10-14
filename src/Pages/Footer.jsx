@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 
 function Footer(){
     return(
-        <footer className="w-full bg-gradient-to-r from-blue-100 via-pink-50 to-red-100 text-gray-800">
+        <footer className="w-full ">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
             <div className='ml-1 mb-8 sm:mb-10'>
                 <img src={logo} alt="Embarcadero logo" className="h-8 sm:h-10 w-auto" />

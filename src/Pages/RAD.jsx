@@ -4,8 +4,11 @@ import img6 from '/Assets/image22.svg';
 
 function RAD() {
     return (
-        <div className="w-full bg-gradient-to-r from-blue-100 via-pink-50 to-red-100 py-8 sm:py-12">
+        <div className="w-full  sm:py-12">
+            {/* <div className="absolute bg-blue-500  opacity-10 blur-[50px] w-[60vw] h-[80vh] md:w-[50vw] md:h-[70vh] lg:w-[40vw] lg:h-[60vh] xl:w-[35vw] xl:h-[50vh] left-[-10vw] top-[15vh] md:left-[-8vw] md:top-[-12vh] lg:left-[-6vw] lg:top-[-10vh] xl:left-[-4vw] xl:top-[-8vh]"/> */}
+
             <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
+                
                 <div className="w-full md:w-1/2 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">
                     <img src={img6} alt="RAD Section" className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105"/>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left">

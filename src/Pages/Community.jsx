@@ -3,7 +3,7 @@ import img1 from '/Assets/map.svg';
 
 function Community() {
     return (
-        <div className="w-full px-4 py-8 sm:py-12 bg-gradient-to-r from-blue-100 via-pink-50 to-red-100">
+        <div className="w-full px-4 py-8 sm:py-12 ">
             <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-8 md:gap-12">
                 <div className="w-full md:w-1/2 md:ml-5 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left w-full">
