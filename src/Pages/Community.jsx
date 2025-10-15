@@ -3,8 +3,12 @@ import img1 from '/Assets/map.svg';
 
 function Community() {
     return (
-        <div className="w-full px-4 py-8 sm:py-12 ">
-            <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-8 md:gap-12">
+        <div className="relative w-full px-4 py-8 sm:py-12 mt-0 sm:mt-0 overflow-hidden">
+            <div className="absolute bg-indigo-500 opacity-10 blur-[280px] rounded-full w-[35vw] h-[35vh] sm:w-[40vw] sm:h-[50vh] md:w-[30vw] md:h-[40vh] left-[-15vw] top-[-10vh] z-0" />
+            <div className="absolute bg-[#6366F1] opacity-10 blur-[410px] rounded-full w-[70vw] h-[95vh] sm:w-[60vw] sm:h-[85vh] md:w-[50vw] md:h-[75vh] left-[-25vw] top-[-30vh] z-0"/>
+            <div className="absolute bg-[#F43F5E] opacity-10 blur-[410px] rounded-full w-[75vw] h-[100vh] sm:w-[65vw] sm:h-[90vh] md:w-[55vw] md:h-[80vh] right-[-30vw] top-[-25vh] z-0" />
+            
+            <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between ">
                 <div className="w-full md:w-1/2 md:ml-5 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left w-full">
                         <span className="text-gray-900">Join Our </span>
@@ -18,9 +22,8 @@ function Community() {
                             type="email"
                             placeholder="Your Email"
                             className="w-full h-auto sm:w-auto flex-1 px-4 py-2.5 sm:py-3 text-sm rounded-lg border-2 border-grey-1200 focus:outline-none focus:border-blue-400"
-                            // style={{ height: 'auto' }}
                         />
-                        <button type="submit" className="px-6 sm:px-8 py-2.5 sm:py-3 bg-black text-white text-base rounded-lg hover:bg-white hover:text-black transition border-2 border-grey-1200">
+                        <button type="submit" className="w-full sm:w-auto px-4 sm:px-6 py-2.5 sm:py-3 bg-black text-white text-base rounded-lg hover:bg-white hover:text-black transition border-2 border-grey-1200">
                             Subscribe
                         </button>
                     </form>

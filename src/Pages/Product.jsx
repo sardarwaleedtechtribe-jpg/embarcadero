@@ -10,9 +10,11 @@ const Product = () => {
   const logos = [{ img: img1 },{ img: img2 },{ img: img3 },{ img: img4 },{ img: img5 },];
 
   return (
-    <div className="w-full xs:min-h-[40vh] sm:min-h-[30vh] md:min-h-screen lg:min-h-screen flex items-start md:items-center justify-center px-2 xs:px-3 sm:px-6 lg:px-8 ">
+    <div className="relative w-full xs:min-h-[40vh] sm:min-h-[30vh] md:min-h-screen lg:min-h-screen flex items-start md:items-center justify-center px-2 xs:px-3 sm:px-6 lg:px-8 overflow-hidden">
+      <div className="absolute bg-cyan-500 opacity-10 blur-[400px] rounded-full w-[190vw] h-[120vh] sm:w-[85vw] sm:h-[110vh] md:w-[75vw] md:h-[100vh] left-[-35vw] top-[0vh] z-0" />
+      <div className="absolute bg-rose-600 opacity-10 blur-[320px] rounded-full w-[190vw] h-[120vh] sm:w-[85vw] sm:h-[110vh] md:w-[75vw] md:h-[100vh] right-[-35vw] top-[0vh] z-0" />
 
-      <div className="w-full flex flex-col items-center justify-center ">
+      <div className="relative z-10 w-full flex flex-col items-center justify-center ">
         <div className="w-full flex flex-col items-center text-center mt-16 xs:mt-20 sm:mt-8 md:mt-0 lg:mt-16 xl:mt-12">
           <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-7xl  lg:text-6xl xl:text-8xl 2xl:text-6xl font-semibold bg-gradient-to-r from-fuchsia-600 via-pink-600 to-fuchsia-600 bg-clip-text text-transparent px-2 xs:px-4 mt-2 xs:mt-4 sm:mt-6 md:mt-0">
             Developer Tools

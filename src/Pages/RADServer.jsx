@@ -5,14 +5,13 @@ import img6 from "/Assets/image20.svg";
 function RADServer() {
   return (
     <div className="relative w-full px-4 py-8 sm:py-12 overflow-hidden">
-      {/* === Background Glows === */}
-      <div className="absolute   bg-[#6366F1] opacity-10 blur-[290px] rounded-full w-[70vw] h-[110vh] sm:w-[60vw] sm:h-[100vh] md:w-[50vw] md:h-[90vh] left-[-15vw] top-[-30vh] z-0"/>
-      <div className="absolute   bg-[#F43F5E] opacity-10 blur-[310px] rounded-full  w-[75vw] h-[115vh] sm:w-[65vw] sm:h-[105vh] md:w-[55vw] md:h-[95vh]  right-[-20vw] top-[-25vh] z-0" />
+      <div className="absolute   bg-indigo-500 opacity-10 blur-[280px] rounded-full w-[35vw] h-[35vh] sm:w-[40vw] sm:h-[55vh] md:w-[30vw] md:h-[45vh] left-[-5vw] top-[-5vh] z-0" />
+      <div className="absolute   bg-[#6366F1] opacity-10 blur-[410px] rounded-full w-[70vw] h-[110vh] sm:w-[60vw] sm:h-[100vh] md:w-[50vw] md:h-[90vh] left-[-15vw] top-[-30vh] z-0"/>
+      <div className="absolute   bg-[#F43F5E] opacity-10 blur-[410px] rounded-full  w-[75vw] h-[115vh] sm:w-[65vw] sm:h-[105vh] md:w-[55vw] md:h-[95vh]  right-[-20vw] top-[-25vh] z-0" />
 
-      {/* === Main Content === */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-8 md:gap-12">
         <div className="w-full md:w-1/2 md:ml-5 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">
-          <img
+          <img 
             src={img6}
             alt="RAD Server"
             className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105"

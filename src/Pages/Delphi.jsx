@@ -5,8 +5,8 @@ import img6 from "/Assets/image19.svg";
 function Delphi() {
   return (
     <div className="relative w-full px-4 py-8 sm:py-12 overflow-hidden">
-      <div className="absolute   bg-[#6366F1] opacity-10 blur-[60px] rounded-full w-[65vw] h-[80vh] sm:w-[55vw] sm:h-[70vh] md:w-[45vw] md:h-[60vh] left-[-15vw] top-[10vh] z-0" />
-      <div className="absolute   bg-[#F43F5E] opacity-10 blur-[80px] rounded-full w-[70vw] h-[85vh] sm:w-[60vw] sm:h-[75vh] md:w-[50vw] md:h-[65vh] right-[-20vw] top-[15vh] z-0" />
+      <div className="absolute   bg-[#6366F1] opacity-10 blur-[360px] rounded-full w-[65vw] h-[80vh] sm:w-[55vw] sm:h-[70vh] md:w-[45vw] md:h-[60vh] left-[-15vw] top-[10vh] z-0" />
+      <div className="absolute   bg-[#F43F5E] opacity-10 blur-[380px] rounded-full w-[70vw] h-[85vh] sm:w-[60vw] sm:h-[75vh] md:w-[50vw] md:h-[65vh] right-[-20vw] top-[15vh] z-0" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-8 md:gap-12">
         <div className="w-full md:w-1/2 md:ml-5 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">

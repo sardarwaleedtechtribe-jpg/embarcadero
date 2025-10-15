@@ -6,30 +6,17 @@ function Builder() {
   return (
     <div className="relative w-full px-4 py-8 sm:py-12 overflow-hidden">
 
-      <div className="absolute  bg-[#6366F1] opacity-10 blur-[480px] rounded-full   w-[70vw] h-[100vh] sm:w-[60vw] sm:h-[90vh] md:w-[50vw] md:h-[80vh]  left-[-15vw] top-[5vh] z-0"/>
-      <div className="absolute  bg-[#F43F5E] opacity-10 blur-[450px] rounded-full w-[75vw] h-[105vh] sm:w-[65vw] sm:h-[95vh] md:w-[55vw] md:h-[85vh] right-[-20vw] top-[8vh] z-0" />
+      <div className="absolute  bg-[#6366F1] opacity-10 blur-[380px] rounded-full   w-[70vw] h-[100vh] sm:w-[60vw] sm:h-[90vh] md:w-[50vw] md:h-[80vh]  left-[-15vw] top-[5vh] z-0"/>
+      <div className="absolute  bg-[#F43F5E] opacity-10 blur-[350px] rounded-full w-[75vw] h-[105vh] sm:w-[65vw] sm:h-[95vh] md:w-[55vw] md:h-[85vh] right-[-20vw] top-[8vh] z-0" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-8 md:gap-12">
         <div className="w-full md:w-1/2 md:ml-5 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">
-          <img
-            src={img6}
-            alt="C++ Builder"
-            className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105"
-          />
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left">
-            C++ Builder 11.2
-          </h2>
-          <p className="text-gray-700 max-w-2xl text-center md:text-left">
-            Advanced IDE for modern C++ with high-productivity libraries that enable developers
-            to deliver blazingly fast native apps with great user experience on Windows and iOS.
-          </p>
+          <img src={img6}  alt="C++ Builder "  className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105" />
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left"> C++ Builder 11.2  </h2>
+          <p className="text-gray-700 max-w-2xl text-center md:text-left"> Advanced IDE for modern C++ with high-productivity libraries that enable developers to deliver blazingly fast native apps with great user experience on Windows and iOS.</p>
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4">
-            <button className="px-5 sm:px-6 py-2 bg-black text-white rounded-lg hover:bg-white hover:text-black transition border-2 border-gray-800">
-              Start a Free Trial
-            </button>
-            <button className="px-5 sm:px-6 py-2 bg-white text-gray-800 rounded-lg hover:bg-black hover:text-white transition">
-              View Details
-            </button>
+            <button className="px-5 sm:px-6 py-2 bg-black text-white rounded-lg hover:bg-white hover:text-black transition border-2 border-gray-800"> Start a Free Trial  </button>
+            <button className="px-5 sm:px-6 py-2 bg-white text-gray-800 rounded-lg hover:bg-black hover:text-white transition">   View Details  </button>
           </div>
         </div>
 

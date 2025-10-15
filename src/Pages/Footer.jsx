@@ -3,12 +3,16 @@ import logo from '/Assets/embarcader.svg';
 import { FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 function Footer(){
     return(
-        <footer className="w-full ">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+        <footer className="relative w-full overflow-hidden">
+            <div className="absolute bg-indigo-500 opacity-10 blur-[280px] rounded-full w-[35vw] h-[35vh] sm:w-[40vw] sm:h-[50vh] md:w-[30vw] md:h-[40vh] left-[-15vw] top-[-10vh] z-0" />
+            <div className="absolute bg-[#6366F1] opacity-10 blur-[410px] rounded-full w-[70vw] h-[95vh] sm:w-[60vw] sm:h-[85vh] md:w-[50vw] md:h-[75vh] left-[-25vw] top-[-30vh] z-0"/>
+            <div className="absolute bg-[#F43F5E] opacity-10 blur-[410px] rounded-full w-[75vw] h-[100vh] sm:w-[65vw] sm:h-[90vh] md:w-[55vw] md:h-[80vh] right-[-30vw] top-[-25vh] z-0" />
+            
+            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
             <div className='ml-1 mb-8 sm:mb-10'>
                 <img src={logo} alt="Embarcadero logo" className="h-8 sm:h-10 w-auto" />
             </div>

@@ -43,29 +43,14 @@ function Navbar() {
                 ))}
               </div>
 
-              <button className="cursor-pointer text-left px-3 py-1 rounded-lg border border-black bg-black text-white transition-colors duration-150 hover:bg-gray-500 hover:text-white active:bg-white active:text-black">
-
-                Free Trial
-              </button>
-
-              <button
-                onClick={toggleSidebar}
+              <button className="cursor-pointer text-left px-3 py-1 rounded-lg border border-black bg-black text-white transition-colors duration-150 hover:bg-gray-900 hover:text-white active:bg-gray-300 active:text-black">Free Trial</button>
+              <button  onClick={toggleSidebar}
                 className="cursor-pointer p-2 rounded-md text-gray-700 hover:text-black hover:bg-gray-100  xl:hidden"
                 aria-label="Toggle navigation menu"
               >
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
+                <svg   className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" >
                   {isSidebarOpen ? (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   ) : (
                     <path
                       strokeLinecap="round"
