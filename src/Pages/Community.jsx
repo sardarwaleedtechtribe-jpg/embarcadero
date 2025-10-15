@@ -23,7 +23,9 @@ function Community() {
                             placeholder="Your Email"
                             className="w-full h-auto sm:w-auto flex-1 px-4 py-2.5 sm:py-3 text-sm rounded-lg border-2 border-grey-1200 focus:outline-none focus:border-blue-400"
                         />
-                        <button type="submit" className="w-full sm:w-auto px-4 sm:px-6 py-2.5 sm:py-3 bg-black text-white text-base rounded-lg hover:bg-white hover:text-black transition border-2 border-grey-1200">
+                       <button 
+                       className="px-5 sm:px-6 py-2 border border-black bg-black text-white rounded-lg transition-colors duration-150 hover:bg-gray-900 hover:text-white"
+                       >
                             Subscribe
                         </button>
                     </form>

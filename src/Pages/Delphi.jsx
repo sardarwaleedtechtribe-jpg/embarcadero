@@ -24,7 +24,7 @@ function Delphi() {
             best-in-class Windows integration, and up to 5x productivity gains.
           </p>
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4">
-            <button className="px-5 sm:px-6 py-2 bg-black text-white rounded-lg hover:bg-white hover:text-black transition">
+           <button className="px-5 sm:px-6 py-2 border border-black bg-black text-white rounded-lg transition-colors duration-150 hover:bg-gray-900 hover:text-white">
               Start a Free Trial
             </button>
             <button className="px-5 sm:px-6 py-2 bg-white text-gray-800 rounded-lg hover:bg-black hover:text-white transition">

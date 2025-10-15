@@ -20,11 +20,7 @@ function Navbar() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="h-12 sm:h-14 flex items-center justify-between">
             <div className="flex items-center">
-              <img
-                src={logo}
-                alt="Embarcadero"
-                className="h-5 sm:h-6 md:h-7 w-auto"
-              />
+              <img src={logo} alt="Embarcadero" className="h-5 sm:h-6 md:h-7 w-auto"/>
             </div>
 
             <div className="flex-1 flex justify-center hidden xl:flex">
@@ -36,18 +32,18 @@ function Navbar() {
                 {["Sign In", "Buy Now"].map((label) => (
                   <button
                     key={label}
-                    className="cursor-pointer text-left px-3 py-1 rounded-lg border border-transparent bg-transparent text-black transition-all hover:border-gray-800 active:bg-black active:text-white"
-                  >
+                    className="cursor-pointer text-left px-3 py-1 rounded-lg border border-transparent bg-transparent text-black hover:bg-black hover:text-white">
                     {label}
                   </button>
                 ))}
               </div>
 
-              <button className="cursor-pointer text-left px-3 py-1 rounded-lg border border-black bg-black text-white transition-colors duration-150 hover:bg-gray-900 hover:text-white active:bg-gray-300 active:text-black">Free Trial</button>
+              <button className="cursor-pointer text-left px-3 py-1 rounded-lg border border-black bg-black text-white transition-colors duration-150 hover:bg-gray-900 ">Free Trial</button>
               <button  onClick={toggleSidebar}
                 className="cursor-pointer p-2 rounded-md text-gray-700 hover:text-black hover:bg-gray-100  xl:hidden"
                 aria-label="Toggle navigation menu"
               >
+
                 <svg   className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" >
                   {isSidebarOpen ? (
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

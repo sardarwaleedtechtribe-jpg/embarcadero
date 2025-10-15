@@ -15,7 +15,7 @@ function RAD() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left">RAD Studio 11.2</h2>
           <p className="text-gray-700 max-w-2xl text-center md:text-left">RAD Studio® is the ultimate IDE for building single-source multi-platform native apps with Delphi® and modern C++ using advanced Windows desktop UI libraries ready for Windows 11.</p>
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4">
-            <button className="px-5 sm:px-6 py-2 bg-black text-white rounded-lg hover:bg-white hover:text-black transition">Start a Free Trial</button>
+            <button className="px-5 sm:px-6 py-2 border border-black bg-black text-white rounded-lg transition-colors duration-150 hover:bg-gray-900 hover:text-white">Start a Free Trial</button>
             <button className="px-5 sm:px-6 py-2 bg-white text-gray-800 rounded-lg hover:bg-black hover:text-white transition">View Details</button>
           </div>
         </div>

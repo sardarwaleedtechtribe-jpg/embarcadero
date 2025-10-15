@@ -15,7 +15,7 @@ function Builder() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left"> C++ Builder 11.2  </h2>
           <p className="text-gray-700 max-w-2xl text-center md:text-left"> Advanced IDE for modern C++ with high-productivity libraries that enable developers to deliver blazingly fast native apps with great user experience on Windows and iOS.</p>
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4">
-            <button className="px-5 sm:px-6 py-2 bg-black text-white rounded-lg hover:bg-white hover:text-black transition border-2 border-gray-800"> Start a Free Trial  </button>
+            <button className="px-5 sm:px-6 py-2 border border-black bg-black text-white rounded-lg transition-colors duration-150 hover:bg-gray-900 hover:text-white">Start a Free Trial  </button>
             <button className="px-5 sm:px-6 py-2 bg-white text-gray-800 rounded-lg hover:bg-black hover:text-white transition">   View Details  </button>
           </div>
         </div>
