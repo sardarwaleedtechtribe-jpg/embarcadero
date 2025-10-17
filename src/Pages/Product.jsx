@@ -20,8 +20,7 @@ const Product = () => {
   ];
 
   return (
-    <div className="relative w-full min-h-[40vh] sm:min-h-[50vh] md:min-h-[60vh] lg:min-h-[75vh] xl:min-h-[70vh] xl:min-h-[90vh] flex items-start justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Breadcrumbs */}
+    <div className="relative w-full min-h-[40vh] sm:min-h-[50vh] md:min-h-[40vh] lg:min-h-[45vh] xl:min-h-[70vh]  flex items-start justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="absolute top-[20px] left-[50px] xs:left-[30px] sm:left-[40px] md:left-[150px] lg:left-[200px] text-sm text-gray-600 z-20">
         {breadcrumbs.map((item, index) => (
           <React.Fragment key={item.label}>
@@ -32,20 +31,17 @@ const Product = () => {
           </React.Fragment>
         ))}
       </div>
-      {/* Background Blurs */}
-      <div className="absolute bg-cyan-500 opacity-[5%] blur-[40px] rounded-full w-[906px] h-[906px] sm:w-[85vw] sm:h-[110vh] md:w-[75vw] md:h-[100vh] left-[-20vw] top-[15vh] sm:left-[-40vw] sm:top-[25vh] md:left-[-43vw] md:top-[47vh] z-0" />
-      <div className="absolute bg-rose-600 opacity-[5%] blur-[40px] rounded-full w-[190vw] h-[120vh] sm:w-[85vw] sm:h-[110vh] md:w-[75vw] md:h-[100vh] right-[-20vw] top-[-15vh] sm:right-[-40vw] sm:top-[-30vh] md:right-[-50vw] md:top-[-45vh] z-0" />
+      {/* <div className="absolute bg-cyan-500 opacity-[5%] blur-[40px] rounded-full w-[906px] h-[906px] sm:w-[85vw] sm:h-[110vh] md:w-[75vw] md:h-[100vh] left-[-20vw] top-[15vh] sm:left-[-40vw] sm:top-[25vh] md:left-[-43vw] md:top-[47vh] z-0" /> */}
+      {/* <div className="absolute bg-rose-600 opacity-[5%] blur-[40px] rounded-full w-[190vw] h-[120vh] sm:w-[85vw] sm:h-[110vh] md:w-[75vw] md:h-[100vh] right-[-20vw] top-[-15vh] sm:right-[-40vw] sm:top-[-30vh] md:right-[-50vw] md:top-[-45vh] z-0" /> */}
       {/* Main Content */}
       <div className="relative z-10 w-full flex flex-col items-center justify-center">
-        <div className="w-full flex flex-col items-center text-center 
-          mt-16 xs:mt-20 sm:mt-8 md:mt-16 
-          lg:mt-24 xl:mt-28">
+        <div className="w-full flex flex-col items-center text-center  mt-16 xs:mt-20 sm:mt-8 md:mt-16 lg:mt-18 xl:mt-28">
           {/* Heading */}
           <h2 className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[64px] xl:text-[72px] 2xl:text-[64px] font-semibold bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent px-2 xs:px-4 mt-2">
             Developer Tools
           </h2>
           {/* Paragraph */}
-          <p className="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-4xl text-gray-600 mt-4 sm:mt-6 md:mt-8 lg:mt-8 xl:mt-8 px-2 xs:px-4 max-w-4xl" style={{ fontSize: "calc(20px + 0.4vw)" }}>
+            <p className="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-4xl text-gray-600 mt-4 sm:mt-6 md:mt-8 lg:mt-8 xl:mt-8 px-2 xs:px-4 max-w-4xl">
             Trusted by Over Three Million Developers Worldwide.
           </p>
           {/* Logos */}

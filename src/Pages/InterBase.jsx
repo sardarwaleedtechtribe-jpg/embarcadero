@@ -4,7 +4,7 @@ import img6 from "/Assets/image20.svg";
 
 function InterBase() {
   return (
-    <div className="relative w-full px-4 py-8 sm:py-12 overflow-hidden">
+    <div className="relative w-full px-4 py-8 sm:py-12 overflow-autovisable">
       <div className="absolute  bg-[#6366F1] opacity-10 blur-[350px] rounded-full w-[70vw] h-[120vh] sm:w-[60vw] sm:h-[110vh] md:w-[50vw] md:h-[100vh] left-[-15vw] top-[-25vh] z-0" />
       <div className="absolute  bg-[#F43F5E] opacity-10 blur-[410px] rounded-full w-[75vw] h-[125vh] sm:w-[65vw] sm:h-[115vh] md:w-[55vw] md:h-[105vh] right-[-20vw] top-[-20vh] z-0" />
    

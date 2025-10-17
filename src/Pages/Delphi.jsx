@@ -4,12 +4,13 @@ import img6 from "/Assets/image19.svg";
 
 function Delphi() {
   return (
-    <div className="relative w-full px-4 py-8 sm:py-14 md:py-20 lg:py-24 xl:py-32 overflow-hidden">
+    <div className="relative w-full px-4 py-8 sm:py-14 md:py-20 lg:py-24 xl:py-32 overflow-autovisable">
       <div className="absolute   bg-[#6366F1] opacity-10 blur-[600px] rounded-full w-[90vw] h-[120vh] sm:w-[80vw] sm:h-[100vh] md:w-[70vw] md:h-[110vh] lg:w-[60vw] lg:h-[120vh] xl:w-[50vw] xl:h-[140vh] left-[-15vw] top-[20vh] z-0" />
       <div className="absolute   bg-[#F43F5E] opacity-10 blur-[680px] rounded-full w-[100vw] h-[140vh] sm:w-[85vw] sm:h-[120vh] md:w-[75vw] md:h-[130vh] lg:w-[65vw] lg:h-[145vh] xl:w-[55vw] xl:h-[160vh] right-[-20vw] top-[25vh] z-0" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-12 md:gap-16 lg:gap-20 xl:gap-24">
-        <div className="w-full md:w-1/2 md:ml-10 flex flex-col items-center md:items-start gap-6 md:gap-8 lg:gap-10 xl:gap-12 text-base sm:text-lg md:w-[calc(100%-200px)] md:ml-auto">
+        {/* <div className="w-full md:w-1/2 md:ml-10 flex flex-col items-center md:items-start gap-6 md:gap-8 lg:gap-10 xl:gap-12 text-base sm:text-lg md:w-[calc(100%-200px)] md:ml-auto"> */}
+      <div className="w-full md:w-4/5 md:ml-auto flex flex-col items-center md:items-start gap-6 md:gap-8 lg:gap-10 xl:gap-12 text-base sm:text-lg">
           <img src={img6}  alt="C++ Builder "  className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105" />
             {/*lg:text-6xl font-bold text-center md:text-left */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left  ">  Delphi 11.2   </h2>

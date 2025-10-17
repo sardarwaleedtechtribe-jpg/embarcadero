@@ -14,7 +14,7 @@ import Footer from '../Pages/Footer';
 
 function Home(){
     return(
-            <div className="w-full   min-h-screen bg-gray-50">
+            <div className="w-full   min-h-screen bg-gray-50 overflow-x-hidden">
             <Header />
             <Navbar />
             <Product />
@@ -29,6 +29,5 @@ function Home(){
         </div>
     );
 }
-
 
 export default Home;
