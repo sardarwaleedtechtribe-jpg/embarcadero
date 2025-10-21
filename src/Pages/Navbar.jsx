@@ -25,7 +25,7 @@ function Navbar() {
 
             <div className="flex-1 flex justify-center hidden xl:flex">
               <NavMenu />
-            </div>
+            </div> 
 
             <div className="flex items-center gap-2">
               <div className="hidden md:flex items-center gap-2">

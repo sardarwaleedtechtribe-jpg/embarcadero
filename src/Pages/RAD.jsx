@@ -4,11 +4,11 @@ import img6 from "/Assets/RAD.svg";
 
 function RAD() {
   return (
-    <div className="relative  w-full px-4 py-8 sm:py-14 md:py-20 lg:py-24 xl:py-32 overflow-hidden">
-      <div className="absolute   bg-[#6366F1] opacity-10 blur-[600px] rounded-full w-[90vw] h-[120vh] sm:w-[80vw] sm:h-[100vh] md:w-[70vw] md:h-[110vh] lg:w-[60vw] lg:h-[120vh] xl:w-[50vw] xl:h-[140vh] left-[-15vw] top-[20vh] z-0" />
-      <div className="absolute   bg-[#F43F5E] opacity-10 blur-[680px] rounded-full w-[100vw] h-[140vh] sm:w-[85vw] sm:h-[120vh] md:w-[75vw] md:h-[130vh] lg:w-[65vw] lg:h-[145vh] xl:w-[55vw] xl:h-[160vh] right-[-20vw] top-[25vh] z-0" />
-
+    <div className="relative  w-full px-4 py-8 sm:py-14 md:py-20 lg:py-24 xl:py-32 overflow-visible ">
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-12 md:gap-16 lg:gap-20 xl:gap-24">
+      <div className="absolute bg-rose-600 opacity-15 blur-[68px] rounded-[40px] w-[15rem] h-[20rem] sm:w-[20rem] sm:h-[25rem] md:w-[25rem] md:h-[30rem] right-[-12rem] top-1/2 -translate-y-1/2 z-0" />
+      <div className="absolute bg-cyan-500 opacity-25 blur-[178px] rounded-full w-[250px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] left-[-100px] top-[20px] sm:left-[-150px] sm:top-[-100px] md:left-[-180px] md:top-[-130px] z-0" />
+      
       <div className="w-full md:w-4/5 md:ml-auto flex flex-col items-center md:items-start gap-6 md:gap-8 lg:gap-10 xl:gap-12 text-base sm:text-lg">
           <img src={img6}  alt="C++ Builder "  className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105" />
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left  ">  RAD Studio 11.2   </h2> {/*lg:text-6xl font-bold text-center md:text-left */}
