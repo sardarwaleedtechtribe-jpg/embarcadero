@@ -26,13 +26,13 @@ function Delphi() {
           </p>
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 sm:gap-5 md:flex-row w-full">
             <div className="flex justify-center items-center w-full md:w-auto">
-              <button className="w-full md:w-auto px-6 py-4 h-12 text-base border border-black bg-black text-white rounded-lg transition-colors duration-150 hover:bg-gray-900 hover:text-white md:text-lg flex items-center justify-center">
+              <button className="cursor-pointer w-full md:w-auto px-6 py-4 h-12 text-base border border-black bg-black text-white rounded-lg transition-colors duration-150 hover:bg-gray-900 hover:text-white md:text-lg flex items-center justify-center">
                 Start a Free Trial
               </button>
             </div>
 
             <div className="flex justify-center items-center w-full md:w-auto">
-              <button className="w-full md:w-auto px-6 py-4 h-12 text-base bg-white text-gray-800 rounded-lg hover:bg-black hover:text-white transition md:text-lg flex items-center justify-center">
+              <button className="cursor-pointer w-full md:w-auto px-6 py-4 h-12 text-base bg-white text-gray-800 rounded-lg hover:bg-black hover:text-white transition-all duration-500 md:text-lg flex items-center justify-center">
                 View Details
               </button>
             </div>

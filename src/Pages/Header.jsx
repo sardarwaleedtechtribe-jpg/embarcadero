@@ -22,7 +22,7 @@ function Header() {
             <a  href="#"  className="underline underline-offset-2 hover:text-blue-300" > Watch The Replay </a>
           </div>
 
-          <nav className="hidden lg:flex items-center gap-6 text-xs">
+          <nav className="hidden lg:flex items-center gap-6 text-xs ml-12 lg:ml-15 xl:ml-64 2xl:ml-[260px]">
             {navLinks.map((link) => (
               <a key={link.title} href={link.href} className="hover:text-blue-200 transition-colors" >
                 {link.title}

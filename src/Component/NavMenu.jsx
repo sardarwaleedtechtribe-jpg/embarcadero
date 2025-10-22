@@ -1,102 +1,36 @@
 import React, { useState, useCallback, useMemo } from "react";
-
 const DROPDOWN_CONTENT = {
   products: {
     columns: [
-      {
-        title: "Development Tools",
-        tools: [
-          {
-            name: "RAD Studio",
-            description:
-              "RAD Studio® is the ultimate IDE for building multi-platform high-performance native applications in Delphi® and modern C++ with powerful visual design tools and integrated toolchains.",
-          },
-          {
-            name: "Delphi",
-            description:
-              "Delphi® is the world's most advanced integrated IDE for rapidly developing native high-performance multi-platform applications using powerful visual design tools and features developers love.",
-          },
-          {
-            name: "C++ Builder",
-            description:
-              "C++Builder® is an advanced integrated IDE for modern C++, with robust features empowering blazingly fast, stunning responsive native applications for Windows and iOS.",
-          },
+      {title: "Development Tools",
+        tools: [{name: "RAD Studio",  description: "RAD Studio® is the ultimate IDE for building multi-platform high-performance native applications in Delphi® and modern C++ with powerful visual design tools and integrated toolchains.", },
+          { name: "Delphi",  description:  "Delphi® is the world's most advanced integrated IDE for rapidly developing native high-performance multi-platform applications using powerful visual design tools and features developers love.", },
+          { name: "C++ Builder", description:   "C++Builder® is an advanced integrated IDE for modern C++, with robust features empowering blazingly fast, stunning responsive native applications for Windows and iOS.", },
         ],
       },
       {
         title: "Database & Server Solutions",
         tools: [
-          {
-            name: "InterBase",
-            description:
-              "Ultrafast, scalable, embeddable SQL database with commercial-grade data security, disaster recovery and change synchronization",
-          },
-          {
-            name: "RAD Server",
-            description:
-              "Turn-key application server that provides a robust 'out of the box' back-end platform on which to build and deploy Delphi and C++Builder application services.",
-          },
+          {  name: "InterBase",  description:  "Ultrafast, scalable, embeddable SQL database with commercial-grade data security, disaster recovery and change synchronization",},
+          { name: "RAD Server", description: "Turn-key application server that provides a robust 'out of the box' back-end platform on which to build and deploy Delphi and C++Builder application services.", },
         ],
       },
     ],
   },
   freeTools: {
     title: "Learn",
-    items: [
-      "C++ Compiler",
-      "Delphi Community Ed.",
-      "C++ Builder Community Ed.",
-      "Rest Debugger",
-      "InterBase Developer Edition",
-      "FMX Stencils",
-      "Dev-C++",
-      "PyScripter",
-      "CPP Check",
-      "Python Libraries",
-    ],
-  },
+    items: [ "C++ Compiler", "Delphi Community Ed.", "C++ Builder Community Ed.", "Rest Debugger", "InterBase Developer Edition", "FMX Stencils", "Dev-C++", "PyScripter", "CPP Check", "Python Libraries",    ],},
   resources: {
     sections: [
-      {
-        title: "Learn",
-        items: ["Videos", "Blogs", "White Papers", "Solutions"],
-      },
-      {
-        title: "Engage",
-        items: ["Events", "Webinars", "Success Stories", "For Educators"],
-      },
-      {
-        title: "Partner",
-        items: [
-          "Partners",
-          "MVP programs",
-          "Web App Development",
-          "Embarcadero Academy",
-        ],
-      },
-      {
-        title: "Support",
-        items: [
-          "Migration and Upgrade",
-          "Product Documentation",
-          "Support",
-          "Previous Versions",
-          "FAQs",
-        ],
-      },
+      {title: "Learn", items: ["Videos", "Blogs", "White Papers", "Solutions"],      },      { title: "Engage",  items: ["Events", "Webinars", "Success Stories", "For Educators"],  },
+      { title: "Partner",  items: [ "Partners", "MVP programs", "Web App Development", "Embarcadero Academy", ], },
+      { title: "Support", items: [ "Migration and Upgrade", "Product Documentation", "Support", "Previous Versions", "FAQs", ], },
     ],
   },
 };
 
 // Navigation items configuration
-const NAV_ITEMS = [
-  { label: "Products", hasDropdown: true },
-  { label: "Free Tools", hasDropdown: true },
-  { label: "Blog", hasDropdown: false },
-  { label: "Resources", hasDropdown: true },
-  { label: "Getit", hasDropdown: false },
-  { label: "New Tools", hasDropdown: false },
-];
+const NAV_ITEMS = [  { label: "Products", hasDropdown: true },  { label: "Free Tools", hasDropdown: true },  { label: "Blog", hasDropdown: false }, { label: "Resources", hasDropdown: true }, { label: "Getit", hasDropdown: false },{ label: "New Tools", hasDropdown: false },];
 
 const ProductsDropdown = ({ isSidebar = false }) => (
   <div
@@ -179,10 +113,7 @@ const ResourcesDropdown = ({ isSidebar = false }) => (
         key={section.title}
         className={`${isSidebar ? "w-full" : "flex-1 min-w-0"}`}
       >
-        <h3
-          className={`font-medium ${
-            isSidebar ? "text-sm" : "text-lg"
-          } text-gray-900 mb-2`}
+        <h3  className={`font-medium ${  isSidebar ? "text-sm" : "text-lg"  } text-gray-900 mb-2`}
         >
           {section.title}
         </h3>
@@ -372,7 +303,7 @@ export default function NavMenu({ isSidebar = false, onItemClick }) {
                 id={`${item.label.toLowerCase()}-menu`}
                 role="menu"
                 aria-labelledby={`${item.label.toLowerCase()}-button`}
-                className="absolute top-full left-0 mt-1 min-w-max bg-white rounded-lg shadow-lg border border-gray-200 z-50"
+                className="absolute top-full left-0- -mt-1 min-w-max bg-white rounded-lg shadow-lg border border-gray-200 z-50"
               >
                 {renderDropdownContent(item.label)}
               </div>

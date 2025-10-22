@@ -27,7 +27,7 @@ function Home(){
             <Community />
             <Footer />       
         </div>
-    );
+    ); 
 }
 
 export default Home;
