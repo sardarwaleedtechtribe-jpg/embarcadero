@@ -8,7 +8,7 @@ function InterBase() {
       {/* <div className="absolute  bg-[#F43F5E] opacity-10 blur-[410px] rounded-full w-[75vw] h-[125vh] sm:w-[65vw] sm:h-[115vh] md:w-[55vw] md:h-[105vh] right-[-20vw] top-[-20vh] z-0" /> */}
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-8 md:gap-12">
-        <div className="absolute bg-rose-600 opacity-15 blur-[200px] rounded-[40px] w-[15rem] h-[20rem] sm:w-[20rem] sm:h-[25rem] md:w-[25rem] md:h-[30rem] right-[-12rem] top-[16rem] -translate-y-1/2 z-0" />
+        <div className="absolute bg-rose-600 opacity-15 blur-[260px] rounded-[40px] w-[15rem] h-[20rem] sm:w-[20rem] sm:h-[25rem] md:w-[25rem] md:h-[30rem] right-[-12rem] top-[16rem] -translate-y-1/2 z-0" />
 
         <div className="w-full md:w-1/2 md:ml-5 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">
           <img

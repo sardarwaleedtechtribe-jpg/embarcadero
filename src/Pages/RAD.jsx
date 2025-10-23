@@ -4,10 +4,14 @@ import img6 from "/Assets/RAD.svg";
 
 function RAD() {
   return (
-    <div className="relative  w-full px-4 py-8 sm:py-14 md:py-20 lg:py-24 xl:py-32 overflow-visible ">
+    <div className=" relative  w-full px-4 py-8 sm:py-14 md:py-20 lg:py-24 xl:py-32 overflow-visible ">
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-12 md:gap-16 lg:gap-20 xl:gap-24">
-        <div className="absolute bg-rose-600 opacity-15 blur-[68px] rounded-[40px] w-[15rem] h-[20rem] sm:w-[20rem] sm:h-[25rem] md:w-[25rem] md:h-[30rem] right-[-12rem] top-1/2 -translate-y-1/2 z-0" />
-        <div className="absolute bg-cyan-500 opacity-25 blur-[178px] rounded-full w-[250px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] left-[-100px] top-[20px] sm:left-[-150px] sm:top-[-100px] md:left-[-180px] md:top-[-130px] z-0" />
+{/* Right blur (rose) */}
+<div  className="absolute bg-rose-600 opacity-10 blur-[50px] rounded-[30px] w-[8rem] h-[34rem] top-1/2 right-[-2rem] -translate-y-1/2 z-0  xs:w-[10rem] xs:h-[30rem] xs:right-[-5rem]
+ sm:w-[24rem] sm:h-[48rem] sm:right-[-18rem] md:w-[18rem] md:h-[36rem] md:right-[-14rem] lg:right-[-14rem] lg:w-[16rem] lg:h-[32rem]"/>
+
+<div className="absolute bg-indigo-500 opacity-10 blur-[50px] rounded-full w-[80px] h-[380px] left-[-25px] top-[40px] z-0 xs:w-[220px] xs:h-[00px] xs:left-[-100px] xs:top-[20px]
+    sm:w-[350px] sm:h-[600px] sm:left-[-200px] sm:top-[-40px]  md:w-[350px] md:h-[350px] md:left-[-250px] md:top-[-10px]"/>
 
         <div className="w-full md:w-4/5 md:ml-auto flex flex-col items-center md:items-start gap-6 md:gap-8 lg:gap-10 xl:gap-12 text-base sm:text-lg">
           <img

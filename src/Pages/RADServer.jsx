@@ -8,11 +8,10 @@ function RADServer() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-8 md:gap-12">
         {/* <div className="absolute bg-indigo-200 opacity-50 blur-[80px] rounded-full  w-[250px] h-[350px] sm:w-[300px] sm:h-[450px] md:w-[350px] md:h-[480px]  left-[300px] top-[300px] sm:left-[-150px] sm:top-[-250px] md:left-[-180px] md:top-[-280px]  z--900" /> */}
         <div
-          className="absolute bg-indigo-200 opacity-50 blur-[200px] rounded-full  
-  w-[250px] h-[350px] sm:w-[300px] sm:h-[450px] md:w-[350px] md:h-[480px]
-  left-[300px] sm:left-[-150px] md:left-[-180px]
-  top-1/2 -translate-y-1/2
-  z-[-900]"
+          className="absolute bg-indigo-500 opacity-12 blur-[200px] rounded-full  
+          w-[250px] h-[350px] sm:w-[300px] sm:h-[450px] md:w-[350px] md:h-[480px]
+          left-[300px] sm:left-[-150px] md:left-[-180px]
+          top-1/2 -translate-y-1/2  z-[-900]"
         />
 
         <div className="w-full md:w-1/2 md:ml-5 flex flex-col items-center md:items-start gap-4 md:gap-6 text-base sm:text-lg">

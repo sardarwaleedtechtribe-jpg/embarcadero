@@ -6,8 +6,8 @@ function Delphi() {
   return (
     <div className="relative w-full px-4 py-8 sm:py-14 md:py-20 lg:py-24 xl:py-32 overflow-autovisable">
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:justify-between gap-12 md:gap-16 lg:gap-20 xl:gap-24">
-        <div className="absolute bg-cyan-500 opacity-25 blur-[280px] rounded-full  w-[250px] h-[420px] sm:w-[300px] sm:h-[520px] md:w-[350px] md:h-[600px] left-[-100px] bottom-[-350px]   sm:left-[-150px] sm:bottom-[-400px]   md:left-[-180px] md:bottom-[-450px]   z-0" />
-        <div className="absolute bg-indigo-500 opacity-25 blur-[300px] rounded-full  w-[250px] h-[420px] sm:w-[300px] sm:h-[520px] md:w-[350px] md:h-[600px] right-[-100px] bottom-[-350px]   sm:right-[-150px] sm:bottom-[-400px]   md:right-[-180px] md:bottom-[-450px]   z-0" />
+        <div className="absolute bg-cyan-500 opacity-25 blur-[220px] rounded-full  w-[250px] h-[420px] sm:w-[300px] sm:h-[520px] md:w-[350px] md:h-[600px] left-[-100px] bottom-[-350px]   sm:left-[-150px] sm:bottom-[-400px]   md:left-[-180px] md:bottom-[-450px]   z-0" />
+        <div className="absolute bg-indigo-500 opacity-25 blur-[225px] rounded-full  w-[250px] h-[420px] sm:w-[230px] sm:h-[850px] md:w-[280px] md:h-[600px] right-[-100px] bottom-[-350px]   sm:right-[-150px] sm:bottom-[-400px]   md:right-[-180px] md:bottom-[-450px]   z-0" />
 
         <div className="w-full md:w-4/5 md:ml-auto flex flex-col items-center md:items-start gap-6 md:gap-8 lg:gap-10 xl:gap-12 text-base sm:text-lg">
           <img
