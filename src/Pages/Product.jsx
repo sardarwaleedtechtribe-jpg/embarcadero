@@ -12,20 +12,28 @@ const Product = () => {
   return (
     <div className=" relative w-full min-h-[30vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[45vh] xl:min-h-[40vh] 2xl:min-h-[4vh]   flex items-start justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="relative  z-10 w-full flex flex-col items-center justify-center">
-        <div className="absolute bg-blue-500 opacity-25 blur-[100px] rounded-full z-0 pointer-events-none
+        <div className="absolute bg-blue-500 opacity-25 blur-[340px] rounded-full z-0 pointer-events-none
              w-[20vw] max-w-[320px] min-w-[104px] h-[22vw] max-h-[240px] min-h-[238px] left-1/2 -top-[18%]
              -translate-x-[260%]  sm:-translate-x-[250%]  md:-translate-x-[260%] lg:-translate-x-[230%] -translate-y-[28%]"
           aria-hidden="true"/>
 
-        <div  className="absolute bg-rose-500 opacity-25 blur-[100px] rounded-full z-0 pointer-events-none
+        <div  className="absolute bg-rose-500 opacity-25 blur-[220px] rounded-full z-0 pointer-events-none
               w-[20vw] max-w-[320px] min-w-[104px]  h-[40vw] max-h-[420px] min-h-[320px]
               sm:h-[48vw] sm:max-h-[480px] sm:min-h-[360px]  right-1/2 -top-[5%]
               translate-x-[250%] sm:translate-x-[270%] md:translate-x-[270%] lg:translate-x-[290%] xl:translate-x-[285%] 2xl:translate-x-[250%] 3xl:translate-x-[315%] translate-y-[10%]"
           aria-hidden="true" />
 
-        <div className="absolute bg-cyan-600 opacity-35 blur-[100px] rounded-full z-0 pointer-events-none w-[28vw] max-w-[320px] min-w-[120px] h-[22vw] max-h-[240px] min-h-[238px]  sm:w-[20vw] left-1/2 top-[70%]
-          -translate-x-[200%] sm:-translate-x-[250%] md:-translate-x-[270%] lg:-translate-x-[290%] xl:-translate-x-[270%] 2xl:-translate-x-[230%] translate-y-[10%]"
-          aria-hidden="true" />
+        <div
+            className="absolute bg-cyan-600 opacity-35 blur-[170px] rounded-2xl z-0 pointer-events-none
+            w-[28vw] max-w-[320px] min-w-[120px]
+            h-[28vw] max-h-[300px] min-h-[260px] sm:w-[20vw]
+            left-1/2 top-[41%]
+            -translate-x-[200%] sm:-translate-x-[250%] md:-translate-x-[270%] lg:-translate-x-[260%] xl:-translate-x-[250%] 2xl:-translate-x-[250%] translate-y-[10%]"
+            aria-hidden="true"
+          />
+
+
+
 
         <div  className="absolute bg--600 opacity-25 blur-[2px] rounded-full z-0 pointer-events-none w-[clamp(104px,28vw,320px)] h-[clamp(238px,22vw,240px)] left-1/2 top-[60%] -translate-x-[116%] sm:-translate-x-[150%] md:-translate-x-[170%] lg:-translate-x-[200%] -translate-y-[20%]"
           aria-hidden="true" />
