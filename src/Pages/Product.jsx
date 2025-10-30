@@ -19,7 +19,7 @@ const Product = () => {
   ];
 
   return (
-    <div className=" relative w-full min-h-[30vh] sm:min-h-[33vh] md:min-h-[40vh] lg:min-h-[45vh]   pb-12 md:pb-14     lg:pb-22 xl:min-h-[48vh] 2xl:min-h-[48vh] flex items-start justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div className=" relative w-full min-h-[30vh] sm:min-h-[33vh] md:min-h-[40vh] lg:min-h-[45vh]   pb-12 md:pb-14    lg:pb-22 xl:pb-27  xl:min-h-[48vh] 2xl:min-h-[48vh] flex items-start justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="relative  z-10 w-full flex flex-col items-center justify-center">
         <div className="absolute bg-rose-500 opacity-5 blur-[400px] rounded-1x1 z-0 pointer-events-none 
         w-[869px] max-w-[862px] min-w-[862px]  h-[869] max-h-[860px] min-h-[862px] 

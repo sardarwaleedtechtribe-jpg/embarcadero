@@ -40,7 +40,7 @@ function ProductSection({
   return (
     <div id={id} className="bg-amber-10 relative w-full px-4 overflow-visible sm:mt-10 md:mt-10  lg:mt-0 pt-12 sm:pt-0 ">
       <div
-        className="  relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row 
+        className=" xl:border-e-red-600 relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row 
         items-center md:justify-between gap-6 xl:gap-8 2xl:gap-[260px]"
       >
         {/* --- Background Blur --- */}
