@@ -6,11 +6,12 @@ import { RiInstagramFill } from "react-icons/ri";
 function Footer() {
   return (
     <footer className=" relative w-full overflow-hidden bg-white">
-      <div  className="absolute bg-indigo-500/10 border border-white rounded-full 
+      <div
+        className="absolute bg-indigo-500/10 border border-white rounded-full 
         w-[497px] h-[497px] top-[5101px] left-[1515px] backdrop-blur-[500px] rotate-0 z-0"
       />
 
-      <div className="relative z-10 max-w-7xl 2xl:max-w-[1760px] mx-auto px-4 sm:px-6 py-8 sm:py-12 h-[543px]">
+      <div className="relative z-10 max-w-7xl 2xl:max-w-[1760px] mx-auto px-4 sm:px-6 py-8 sm:py-12 ">
         <div className="flex flex-col 2xl:flex-row 2xl:gap-12">
           {/* logo */}
           <div className="mb-8 sm:mb-10 2xl:mb-0">
@@ -170,7 +171,6 @@ function Footer() {
                 <li>info@embarcadero.com</li>
               </ul>
             </div>
-
           </div>
         </div>
 
