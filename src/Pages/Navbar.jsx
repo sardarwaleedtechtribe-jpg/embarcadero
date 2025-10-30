@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "/Assets/embarcader.svg";
-import NavMenu from "../Component/NavMenu";
+import NavMenu from "../Components/NavMenu";
 import Sidebar from "../Component/Sidebar";
 
 function Navbar() {
@@ -42,7 +42,7 @@ function Navbar() {
                               ? "border-black text-black bg-transparent hover:bg-black hover:text-white"
                               : "border-transparent text-black bg-transparent hover:bg-black hover:text-white"
                           }`}
-                          >
+                  >
                     {" "}
                     {label}
                   </button>

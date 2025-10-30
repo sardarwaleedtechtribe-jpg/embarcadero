@@ -1,6 +1,6 @@
 import React from "react";
 // import logo from "/Assets/embarcader.svg";
-import NavMenu from "./NavMenu";
+import NavMenu from "../Components/NavMenu";
 
 export default function Sidebar({ isOpen, onClose }) {
   return (
@@ -21,9 +21,23 @@ export default function Sidebar({ isOpen, onClose }) {
           {/* Sidebar Header */}
           <div className="flex items-center justify-end p-4 border-b border-gray-200">
             {/* <img src={logo} alt="Embarcadero" className="h-6 w-auto" /> */}
-            <button  onClick={onClose}  className="p-2 rounded-md  text-gray-700 hover:text-black hover:bg-gray-100"  aria-label="Close navigation menu">
-              <svg  className="w-5 h-5"  fill="none" stroke="currentColor"  viewBox="0 0 24 24"   >
-                <path  strokeLinecap="round"   strokeLinejoin="round"   strokeWidth={2}   d="M6 18L18 6M6 6l12 12" />
+            <button
+              onClick={onClose}
+              className="p-2 rounded-md  text-gray-700 hover:text-black hover:bg-gray-100"
+              aria-label="Close navigation menu"
+            >
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </button>
           </div>
@@ -33,7 +47,13 @@ export default function Sidebar({ isOpen, onClose }) {
           <div className="p-4 border-t border-gray-200 md:hidden">
             <div className="space-y-2">
               {["Sign In", "Buy Now"].map((label) => (
-                <button  key={label}  className="w-full text-left px-4 py-2 rounded-lg border border-gray-300 bg-transparent text-black transition-all duration-400 hover:bg-black hover:text-white" > {label} </button>
+                <button
+                  key={label}
+                  className="w-full text-left px-4 py-2 rounded-lg border border-gray-300 bg-transparent text-black transition-all duration-400 hover:bg-black hover:text-white"
+                >
+                  {" "}
+                  {label}{" "}
+                </button>
               ))}
             </div>
           </div>
