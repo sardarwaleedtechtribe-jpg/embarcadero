@@ -12,9 +12,9 @@ function Footer() {
       />
 
       <div className="relative z-10 max-w-7xl 2xl:max-w-[1760px] mx-auto px-4 sm:px-6 py-8 sm:py-12 ">
-        <div className="flex flex-col 2xl:flex-row 2xl:gap-12">
+        <div className="flex flex-col 2xl:flex-row 2xl:gap-50">
           {/* logo */}
-          <div className="mb-8 sm:mb-10 2xl:mb-0">
+          <div className="mb-8 sm:mb-10 2xl:mb-0 2xl:mAX-w-[447px]">
             <img
               src={logo}
               alt="Embarcadero logo"
@@ -24,19 +24,19 @@ function Footer() {
 
           {/* grid columns */}
           <div
-            className="
+            className=" 
               grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 2xl:grid-cols-6
-              gap-6 sm:gap-4 lg:gap-6 2xl:gap-10
-              w-full max-w-[1290px] 2xl:max-w-[1600px]
-              mx-auto
+              gap-6 sm:gap-4 lg:gap-0
+              w-full max-w-[1281px] 2xl:max-w-[1600px]
+              2xl:min-mr-70 2xl:max-mr-74 
             "
           >
             {/* Column 1 */}
-            <div>
-              <h4 className="font-semibold text-base sm:text-lg mb-3 2xl:text-[20px]">
+            <div  className="">
+              <h4 className="font-semibold text-base sm:text-lg  pb-[28px] lg:font-bold 2xl:text-[20px] 2xl:leading-[20px]">
                 Products
               </h4>
-              <ul className="space-y-6 text-xs sm:text-sm 2xl:text-[16px]">
+              <ul className="space-y-6 text-xs sm:text-sm 2xl:pb-[24px] xl:text-[16px]">
                 {[
                   "RAD STUDIO™",
                   "DELPHI®",
@@ -57,11 +57,11 @@ function Footer() {
             </div>
 
             {/* Column 2 */}
-            <div>
-              <h4 className="font-semibold text-base sm:text-lg mb-3 2xl:text-[20px]">
+            <div className="xl:min-w-[222px]  ">  
+              <h4 className="font-semibold text-base sm:text-lg pb-[28px] 2xl:text-[20px] 2xl:leading-[20px]">
                 Free Tools
               </h4>
-              <ul className="space-y-6 text-xs sm:text-sm 2xl:text-[16px]">
+              <ul className="space-y-6 text-xs sm:text-sm 2xl:space-y-4 2xl:pb-[24px] 2xl:text-[16px]">
                 {[
                   "C++ Compiler",
                   "C++Builder Community ED",
@@ -84,11 +84,11 @@ function Footer() {
             </div>
 
             {/* Column 3 */}
-            <div className="lg:ml-14">
-              <h4 className="font-semibold text-base sm:text-lg mb-3 2xl:text-[20px]">
+            <div className="lg:ml-14 2xl:min-w-[177px] 2xl:max-w-[177px]">
+              <h4 className="font-semibold text-base sm:text-lg pb-[28px] 2xl:text-[20px] 2xl:leading-[20px]">
                 Resources
               </h4>
-              <ul className="space-y-6 text-xs sm:text-sm 2xl:text-[16px]">
+              <ul className="space-y-6 text-xs sm:text-sm 2xl:space-y-4 2xl:pb-[24px] 2xl:text-[16px] 2xl:leading-[20px] lg:tracking-tight ">
                 {[
                   "Events and Webinars",
                   "White Papers",
@@ -112,11 +112,11 @@ function Footer() {
             </div>
 
             {/* Column 4 */}
-            <div className="lg:ml-8">
-              <h4 className="font-semibold text-base sm:text-lg 2xl:text-[20px] mb-3">
+            <div className="lg:ml-8 2xl:min-w-[177px] 2xl:max-w-[177px]">
+              <h4 className="font-semibold text-base sm:text-lg pb-[28px] 2xl:text-[20px] 2xl:leading-[20px]">
                 Community
               </h4>
-              <ul className="space-y-6 text-xs sm:text-sm 2xl:text-[16px]">
+              <ul className="space-y-6 text-xs sm:text-sm 2xl:space-y-4 2xl:pb-[24px] 2xl:text-[16px] 2xl:leading-[20px]">
                 <li>
                   <a
                     href="#"
@@ -130,10 +130,10 @@ function Footer() {
 
             {/* Column 5 */}
             <div>
-              <h4 className="font-semibold text-base sm:text-lg 2xl:text-[20px] mb-3">
+              <h4 className="font-semibold text-base sm:text-lg pb-[28px] 2xl:text-[20px] 2xl:leading-[20px]">
                 Company
               </h4>
-              <ul className="space-y-6 text-xs sm:text-sm 2xl:text-[16px]">
+              <ul className="space-y-6 text-xs sm:text-sm 2xl:text-[16px] 2xl:pb-[24px] 2xl:leading-[20px]">
                 {[
                   "About us",
                   "Contact us",
@@ -155,11 +155,11 @@ function Footer() {
             </div>
 
             {/* Column 6 */}
-            <div>
-              <h4 className="font-semibold text-base sm:text-lg 2xl:text-[20px] 2xl:-ml-10 mb-3">
+            <div className="2xl:w-[205px]">
+              <h4 className="font-semibold text-base sm:text-lg pb-[28px] 2xl:text-[20px] 2xl:leading-[20px]">
                 Get In Touch
               </h4>
-              <ul className="space-y-6   text-xs sm:text-sm 2xl:text-[16px] 2xl:-ml-10">
+              <ul className="space-y-6 text-xs sm:text-sm 2xl:space-y-4 2xl:pb-[24px] 2xl:text-[16px]">
                 {[
                   { country: "US", phone: "1 (512) 226-8080" },
                   { country: "DE", phone: "+49 (0)6103-3866-100" },

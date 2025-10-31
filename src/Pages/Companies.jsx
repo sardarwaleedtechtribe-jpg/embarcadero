@@ -61,10 +61,12 @@ function Companies() {
     if (width >= 640 && sm) return sm;
     return base;
   };
-
+// 
   return (
-    <div className="relative w-full px-4 py-[70px] pb-[120px] sm:py-14 flex flex-col items-center gap-6 sm:gap-8 overflow-visible">
-      <div className="relative z-10 max-w-7xl w-full mx-auto flex flex-col items-center gap-6 sm:gap-8">
+    <div className="relative w-full px-4 pt-[80px] pb-[80px] lg:pt-[128px] lg:pb-[128px] 2xl:pt-[80px]  flex flex-col items-center gap-6 sm:gap-8 overflow-visible">
+      <div className="relative z-10 max-w-7xl w-full mx-auto flex flex-col items-center gap-6
+
+      sm:gap-8">
         
         {/* Background Blur */}
         <div

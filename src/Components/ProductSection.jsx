@@ -7,6 +7,7 @@ function ProductSection({
   subtitle,
   description,
   image,
+  imageClass,
   blurColor,
   blurStyles = {},
   blurColor2,
@@ -38,15 +39,14 @@ function ProductSection({
   const resolvedBlur2 = getResponsiveStyle(blurStyles2);
 
   return (
-    <div id={id} className="bg-amber-10 relative w-full px-4 overflow-visible sm:mt-10 md:mt-10  lg:mt-0  sm:pt-0">
-
+    <div id={id} className="relative w-full px-4 overflow-visible sm:mt-10 pb- md:mt-10 lg:mt-0 sm:pt-0">
       <div
-        className="pt-[40px] pb-[15px] sm:py-[25px] md:py-[20px] lg:py-[30px] xl:border-e-red-600 relative z-10 max-w-[1536px] w-full mx-auto flex flex-col md:flex-row 
-        items-center md:justify-between gap-6  "
+        className=" pt-[47px] pb-[40px] sm:py-[25px] md:py-[0px] lg:py-[30px] xl:mx-10 2xl:mx-auto xl:pb-[100px] relative z-10 max-w-[1536px] w-full flex flex-col md:flex-row 
+        items-center md:justify-between gap-6"
       >
         {/* --- Background Blur --- */}
         <div
-          className={`absolute ${blurColor} blur-[0px] rounded-2xl z-0`}
+          className={`absolute ${blurColor} blur-[0px] rounded-2xl -z-10`}
           style={resolvedBlur1}
         />
         <div
@@ -57,22 +57,22 @@ function ProductSection({
         {/* --- Left Content --- */}
         <div
           className="flex flex-col items-center md:items-start gap-y-4  md:gap-4 text-base 
-          sm:text-lg sm:min-w-[564px] sm:max-w-[790px]
-          w-full md:min-w-[380px] md:max-w-[400px]
+          sm:text-lg sm:min-w-[564px] sm:max-w-[790px] 
+          w-full md:min-w-[380px] md:max-w-[400px]  lg:pl-[30px]
           lg:max-w-[581px] xl:max-w-[621px] 2xl:max-w-[621px] 
           xl:flex-shrink-0"
         >
           <img
             src={logo}
             alt={`${title} logo`}
-            className="min-w-[40px] max-w-[64px] min-h-[40px] max-h-[64px] object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105"
+            className="min-w-[64px] max-w-[64px] min-h-[40px] max-h-[64px] object-cover rounded bg-transparent transition-transform duration-300 hover:scale-105"
           />
 
-          <h2 className="text-3xl font-semibold text-center text-[30px]  lg:text-[40px] leading-[150%] text-neutral-800">
+          <h2 className="text-4xl font-semibold text-center text-[30px]  lg:text-[40px] leading-[150%] text-neutral-800">
             {title} {subtitle && <span className="font-[300]">{subtitle}</span>}
           </h2>
 
-          <p className="text-neutral-600 text-[16px] font-normal max-w-2xl text-center md:text-left lg:text-[20px]  xl:text-[24px] leading-[150%]">
+          <p className="text-neutral-600 text-[18px] font-normal max-w-2xl text-center md:text-left lg:text-[24px]  xl:text-[24px] leading-[150%]">
             {description}
           </p>
 
@@ -114,14 +114,7 @@ function ProductSection({
         <img
           src={image}
           alt={title}
-          className="
-            min-w-[343px] min-h-[285px] 
-            sm:min-w-[562px] sm:min-h-[468px] 
-            md:min-w-[300px] md:min-h-[411px] 
-            lg:min-w-[500px] lg:min-h-[500px] 
-            xl:min-w-[613px] xl:max-h-[511px] 
-            2xl:min-w-[661px] 2xl:min-h-[550px] 
-            object-contain"
+          className={ imageClass || "object-contain"}
         />
       </div>
     </div>

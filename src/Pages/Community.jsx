@@ -2,7 +2,8 @@ import img3 from "/Assets/map.svg";
 
 function Community() {
   return (
-    <div className="bg-white  relative w-full px-0 py-8 sm:py-12 mt-0 sm:mt-0 overflow-visible [clip-path:inset(0_0_20px_0)]   min-w-[375px] z-10">
+    // px-0 py-8 sm:py-12
+    <div className="bg-white  relative w-full  mt-0 sm:mt-0 overflow-visible [clip-path:inset(0_0_20px_0)]   min-w-[375px] z-10">
       <div className="relative z-10 max-w-8xl mx-auto  flex flex-col md:flex-row items-center justify-center gap-1 md:h-[380px] lg:h-[540px] xl:h-[640px] sm:gap-1 md:gap-1 lg:gap-1 xl:gap-1 2xl:gap-0 2xl:w:[1515px]  px-0 sm:px-6 lg:px-8 ">
         {/* Background gradients */}
         <div className="absolute bg-cyan-500 opacity-10 blur-[400px] rounded-2x2 
@@ -59,13 +60,23 @@ function Community() {
         </div>
 
         {/* Right Side: Image */}
-        <div className=" md:min-w-[350px] mx-auto md:mx-0 z-10 flex items-center justify-center ">
-          <img
-            src={img3}
-            alt="Delphi 11.2"
-            className=" object-contain w-[343px] h-[209px]  sm:w-[696px] sm:h-[365px] sm:aspect-[562/510] md:w-[550px] md:h-[511px] md:aspect-[350/511] lg:w-[734px] lg:h-[364px] lg:aspect-[734/364]  xl:w-[882px] xl:h-[438px] xl:aspect-[882/438]  "
-          />
-        </div>
+      <div className="mt-[7px] mb-[30px] mx-auto md:mx-0 z-10 flex items-center justify-center">
+  <img
+    src={img3}
+    alt="Screenshot of Delphi 11.2 IDE"
+    loading="lazy"
+    className="
+      w-full 
+      max-w-[343px] aspect-[343/159]
+      sm:max-w-[696px] max-h-[365px] sm:aspect-[562/365]
+      md:max-w-[550px] md:max-h-[511px] md:aspect-[350/511]
+      lg:max-w-[734px] lg:max-h-[341px] lg:aspect-[734/364]
+      xl:max-w-[881px] xl:min-h-[410px]  xl:aspect-[882/410]
+      object-contain
+    "
+  />
+</div>
+
       </div>
     </div>
   );

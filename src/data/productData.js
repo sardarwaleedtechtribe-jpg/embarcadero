@@ -19,8 +19,9 @@ export const productData = [
     subtitle: "11.2",
     description:
       "RAD Studio® is the ultimate IDE for building single-source multi-platform native apps with Delphi® and modern C++ using advanced Windows desktop UI libraries ready for Windows 11.",
-    image: RAD,  
-     blurColor: "bg-rose-600 opacity-20",
+    image: RAD,
+    imageClass: "min-w-[343px] max-h-[285px] sm:max-w-[561px] sm:min-w-[561px] sm:min-h-[458px] sm:max-h-[468px] md:min-w-[300px]  md:min-h-[411px] xl:mr-15 2xl:mx-auto lg:min-w-[500px] lg:min-h-[500px] xl:min-w-[613px] xl:max-h-[511px] 2xl:min-w-[661px] 2xl:min-h-[550px] object-contain",
+    blurColor: "bg-rose-600 opacity-20",
     blurStyles: {
         width: '309px',
         height: '750px',
@@ -65,8 +66,7 @@ export const productData = [
         borderRadius: '3px',
         zIndex: -2,
         backgroundColor: 'rgb(244, 63, 94)',
-        filter: 'blur(210px)',
-},
+        filter: 'blur(210px)',},
 
      blurColor2: "bg-indigo-600 opacity-30",
     blurStyles2: 
@@ -111,8 +111,7 @@ export const productData = [
       },
       borderRadius: '4px',
       transform: 'translateY(-50%)',
-      filter: 'blur(450px)'
-    }  ,
+      filter: 'blur(450px)'    }  ,
   },
 
   {
@@ -123,6 +122,7 @@ export const productData = [
     description:
       "Delphi® is the original IDE for building single-source multi-platform native apps with powerful visual design features and best-in-class Windows integration and up to 5x productivity gains.",
     image: delphi,
+    imageClass: "max-w-[343px] max-h-[354px] sm:min-w-[564px] sm:max-w-[564px] sm:min-h-[524px] md:max-w-[320px]    md:min-h-[524px] xl:mr-15 2xl:mx-auto    lg:min-w-[506px] lg:min-h-[524px]   object-contain",
     blurColor: "bg-cyan-500 opacity-20",
     blurStyles: {
       width: '906px',
@@ -167,6 +167,7 @@ export const productData = [
     description:
       "C++ Builder® is the original IDE for building single-source multi-platform native apps with powerful visual design features and best-in-class Windows integration and up to 5x productivity gains.",
     image: CBuilder,
+    imageClass: "min-w-[341px] max-w-[3px] max-h-[189px] sm:min-w-[564px] sm:max-w-[564px] sm:min-h-[313px] sm:max-h-[313px] md:min-w-[300px] md:min-h-[411px] lg:min-w-[500px] lg:min-h-[500px] xl:min-w-[596px] xl:min-h-[369px] xl:max-w-[609px] xl:max-h-[369px] xl:mr-10 2xl:min-w-[606px] 2xl:min-h-[369px] 2xl:mr-[150px] object-contain",
     blurColor: "bg-indigo-500 opacity-10",
     blurStyles: {
       width: '644px',
@@ -197,7 +198,7 @@ export const productData = [
         bottom: '50px',
         height: '684px'
       },
-      filter: 'blur(300px)'
+      filter: 'blur(300px)',
     },
   },
   
@@ -209,6 +210,7 @@ export const productData = [
     description:
       "InterBase® is a full-featured, encryptable, scalable, embeddable and multi-platform relational SQL database with commercial-grade data security, disaster recovery and change synchronization.",
     image: imgInterBase,
+    imageClass: "max-w-[342px] min-h-[256px] max-h-[354px] sm:max-w-[564px] sm:min-h-[421px] sm:max-h-[421px] md:min-w-[300px] md:min-h-[411px] xl:mr-15 2xl:mx-auto  lg:min-w-[500px] lg:min-h-[499px] xl:max-w-[667px] xl:max-h-[499px] 2xl:min-w-[797px] 2xl:min-h-[596px] object-contain",
     blurColor: "bg-rose-600 opacity-20",
     blurStyles: {
       width: '35rem',
@@ -231,6 +233,7 @@ export const productData = [
     description:
       "Enterprise-grade REST API application platform available as on-premise or deployable to the cloud. Generate database APIs instantly in Delphi® and C++Builder® to build apps faster.",
     image: imgRADServer,
+    imageClass: "min-w-[343px] max-w-[363px] max-h-[160px] sm:min-w-[564px] sm:min-h-[284px] md:min-w-[300px] md:mx-auto  md:max-w-[400px] md:min-h-[411px] xl:mr-15 2xl:mx-auto  lg:min-w-[500px] lg:min-h-[500px] xl:min-w-[624px] xl:min-h-[263px] 2xl:min-w-[692px] 2xl:min-h-[292px]   object-contain",
     blurColor: "bg-indigo-500/15",
     blurStyles: {
       width: '678px',
