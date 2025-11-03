@@ -16,7 +16,7 @@ function Header() {
     <header className="w-full bg-black text-white z-50 relative">
       <div className="mx-auto max-w-[1920px] px-4 sm:px-6 lg:px-8  overflow-hidden">
         <div className="flex h-24 sm:h-[53px] md:h-[53px] lg:h-[53px] xl:h-[53px] 2xl:h-[53px] items-center flex-col gap-4 sm:flex-row sm:justify-between sm:gap-0">
-          <div className="w-full max-w-[550px] flex flex-col sm:flex-row gap-3 text-xs lg:text-[14px] 2xl:text-[16px] font-semibold tracking-tight mt-2 text-center sm:text-left 2xl:ml-16">
+          <div className="w-full max-w-[550px] flex flex-col sm:flex-row gap-3 text-[14px] 2xl:text-[16px] font-semibold tracking-tight mt-2 text-center sm:text-left 2xl:ml-16">
             <p className="font-light">
               See what's new in Delphi, C++ Builder, and RAD Studio
             </p>
@@ -29,7 +29,7 @@ function Header() {
             </a>
           </div>
 
-          <div className="relative flex items-center justify-between gap-6 text-xs z-55 xl:mr-20 2xl:mr-50 ">
+          <div className="relative flex items-center justify-between gap-6 text-xs z-55 xl:mr-20 2xl:mr-0 ">
             <nav className="hidden xl:flex items-center gap-6 text-[16px] xl:w-[540px] ">
               {navLinks.map((link) => (
                 <a
@@ -51,13 +51,13 @@ function Header() {
               <a
                 key={link.title}
                 href="#"
-                className="flex items-center gap-1 hover:text-blue-200 transition-colors "
+                className="flex items-center gap-1 hover:text-blue-200 transition-colors  "
                 aria-label={link.title}
               >
                 <link.icon size={20} />
               </a>
             ))}
-
+             
 
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -85,6 +85,7 @@ function Header() {
               </div>
             )}
           </div>
+
         </div>
       </div>
     </header>

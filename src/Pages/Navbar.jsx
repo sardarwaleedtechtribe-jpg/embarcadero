@@ -16,19 +16,19 @@ function Navbar() {
 
   return (
     <>
-      <nav className="max-w-[1536px] mx-auto w-full bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-200 sticky top-0 z-40">
-        {/* Center container (nav constrained to 1536px above) */}
-        <div className="w-full mx-auto flex justify-center">
-            <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav className="w-full bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-200 sticky top-0 z-40">
+        {/* Center container constrained to exactly 1536px */}
+        <div className="w-full flex justify-center">
+          <div className="w-full max-w-[1536px] px-4 sm:px-6 lg:px-8 2xl:px-0 overflow-hidden">
             {/* Set navbar text size to 14px */}
             <div className="h-12 sm:h-14 flex items-center justify-between text-[14px]">
               
               {/* Logo */}
-              <div className="flex items-center 2xl:-ml-32">
+              <div className="flex items-center xl:ml-14 2xl:ml-8">
                 <img
                   src={logo}
                   alt="Embarcadero"
-                  className="w-[138px] h-[24px]"
+                  className="w-[138px] h-[24px] object-contain"
                 />
               </div>
 
@@ -61,8 +61,9 @@ function Navbar() {
 
                 <button
                   onClick={toggleSidebar}
-                  className="cursor-pointer p-2 rounded-md text-gray-700 hover:text-black hover:bg-gray-100 xl:hidden"
                   aria-label="Toggle navigation menu"
+                  aria-expanded={isSidebarOpen}
+                  className="cursor-pointer p-2 rounded-md text-gray-700 hover:text-black hover:bg-gray-100 xl:hidden"
                 >
                   <svg
                     className="w-6 h-6"

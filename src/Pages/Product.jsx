@@ -60,11 +60,12 @@ const Product = () => {
   " aria-hidden="true" />
 
         <div className="w-full flex flex-col items-center text-center  mt-16 xs:mt-20 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
-          <div className="w-full pt-4 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+          
+          {/* <div className="w-full pt-4 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
             <nav
               className="max-w-4xl mx-auto w-full text-left flex items-center 
                   text-[14px] font-500 text-gray-500 z-20 -mt-14 xs:-mt-12 sm:-mt-10 md:-mt-14 lg:-mt-16 xl:-mt-24 
-                  -translate-x-3 sm:-translate-x-7 md:-translate-x-11 lg:-translate-x-16 xl:-translate-x-38  2xl:-translate-x-72"
+                  -translate-x-3 sm:-translate-x-7 md:-translate-x-11 lg:-translate-x-12 xl:-translate-x-28  2xl:-translate-x-72"
             >
               {breadcrumbs.map((item, index) => (
                 <React.Fragment key={item.label}>
@@ -77,7 +78,22 @@ const Product = () => {
                 </React.Fragment>
               ))}
             </nav>
-          </div>
+          </div> */}
+
+                    {/* Use the same constrained container as the navbar so breadcrumb stays aligned under the navbar logo */}
+<div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <nav className="w-full flex items-center text-[14px] font-medium text-gray-500 z-20 -mt-[40px] sm:-mt-[30px] md:-mt-[40px] lg:-mt-[50px] xl:-mt-[90px]">
+<div className="flex items-center transform -translate-x-3 sm:-translate-x-5 md:-translate-x-4 lg:-translate-x-6 xl:translate-x-7 2xl:-translate-x-30">
+      {breadcrumbs.map((item, index) => (
+        <React.Fragment key={item.label}>
+          <a href="#" className={`mr-2 ${item.color}`}>{item.label}</a>
+          {index < breadcrumbs.length - 1 && <span className="mr-2 text-gray-400">&gt;</span>}
+        </React.Fragment>
+      ))}
+    </div>
+  </nav>
+</div>
+
 
           <h2 className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[64px] xl:text-[72px] 2xl:text-[64px] font-semibold bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent px-2 xs:px-4 mt-2">
             Developer Tools
