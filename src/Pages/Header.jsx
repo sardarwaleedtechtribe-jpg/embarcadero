@@ -14,10 +14,10 @@ function Header() {
 
   return (
     <header className="w-full bg-black text-white z-50  relative mb-2 ">
-      <div className="mx-auto max-w-[1920px] px-4 sm:px-6 lg:px-8  overflow-hidden">
+      <div className="mx-auto max-w-[1760px] w-full px-4 sm:px-6 lg:px-8  overflow-hidden">
         {/* Increase height for sm and smaller */}
         <div className="flex h-28 sm:h-[68px] md:h-[53px] lg:h-[53px] xl:h-[53px] 2xl:h-[53px] items-center flex-col gap-4 sm:flex-row sm:justify-between sm:gap-0">
-          <div className="w-full max-w-[550px] flex flex-col sm:flex-row gap-3 text-[14px] 2xl:text-[16px] font-semibold tracking-tight mt-2 text-center sm:text-left 2xl:ml-16">
+          <div className="w-full max-w-[550px] flex flex-col sm:flex-row gap-3 text-[14px] xl:ml-none 2xl:text-[16px] font-semibold tracking-tight mt-2 text-center sm:text-left">
             <p className="font-light">
               See what's new in Delphi, C++ Builder, and RAD Studio
             </p>
