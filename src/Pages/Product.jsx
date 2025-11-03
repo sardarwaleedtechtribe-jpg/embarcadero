@@ -64,7 +64,7 @@ const Product = () => {
             <nav
               className="max-w-4xl mx-auto w-full text-left flex items-center 
                   text-[14px] font-500 text-gray-500 z-20 -mt-14 xs:-mt-12 sm:-mt-10 md:-mt-14 lg:-mt-16 xl:-mt-24 
-                  -translate-x-3 sm:-translate-x-7 md:-translate-x-11 lg:-translate-x-14 xl:-translate-x-38"
+                  -translate-x-3 sm:-translate-x-7 md:-translate-x-11 lg:-translate-x-16 xl:-translate-x-38  2xl:-translate-x-72"
             >
               {breadcrumbs.map((item, index) => (
                 <React.Fragment key={item.label}>

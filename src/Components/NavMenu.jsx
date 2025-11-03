@@ -113,7 +113,7 @@ const ResourcesDropdown = ({ isSidebar = false }) => (
         key={section.title}
         className={`${isSidebar ? "w-full" : "flex-1 min-w-0"}`}
       >
-        <h3  className={`font-medium ${  isSidebar ? "text-sm" : "text-lg"  } text-gray-900 mb-2`}
+        <h3  className={`font-medium ${  isSidebar ? "text-md" : "text-lg"  } text-gray-900 mb-2`}
         >
           {section.title}
         </h3>
@@ -250,7 +250,7 @@ export default function NavMenu({ isSidebar = false, onItemClick }) {
 
   // Desktop layout
   return (
-    <nav className="hidden sm:flex items-center gap-2 relative z-40">
+    <nav className="hidden sm:flex items-center justify-between relative z-40 w-full max-w-[500px] px-2">
       {NAV_ITEMS.map((item) => {
         const isOpen = item.hasDropdown && openDropdown === item.label;
 
@@ -271,7 +271,7 @@ export default function NavMenu({ isSidebar = false, onItemClick }) {
                   ? `${item.label.toLowerCase()}-menu`
                   : undefined
               }
-              className="cursor-pointer w-full text-left px-3 py-2 rounded-md transition-colors flex items-center justify-between text-sm font-medium text-gray-700 hover:text-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="cursor-pointer text-left px-1.5 py-2 transition-colors flex items-center justify-between text-xs lg:text-sm font-medium text-gray-700 hover:text-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 whitespace-nowrap"
               onClick={() => item.hasDropdown && handleClick(item.label)}
               onKeyDown={(e) => {
                 if (item.hasDropdown && (e.key === "Enter" || e.key === " ")) {
@@ -283,7 +283,7 @@ export default function NavMenu({ isSidebar = false, onItemClick }) {
               {item.label}
               {item.hasDropdown && (
                 <svg
-                  className={`w-4 h-4 ml-1 transition-transform duration-200 ${
+                  className={`w-3.5 h-3.5 ml-0.5 transition-transform duration-200 ${
                     isOpen ? "rotate-180" : ""
                   }`}
                   viewBox="0 0 20 20"
