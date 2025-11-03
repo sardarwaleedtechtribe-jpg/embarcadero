@@ -30,12 +30,12 @@ function Header() {
           </div>
 
           <div className="relative flex items-center justify-between gap-6 text-xs z-55 xl:mr-20 2xl:mr-50 ">
-            <nav className="hidden xl:flex items-center gap-6 text-xs xl:w-[450px] 2xl:-mr-10">
+            <nav className="hidden xl:flex items-center gap-6 text-[16px] xl:w-[540px] ">
               {navLinks.map((link) => (
                 <a
                   key={link.title}
                   href={link.href}
-                  className="hover:text-blue-200 transition-colors"
+                  className="hover:text-blue-200 transition-colors "
                 >
                   {link.title}
                 </a>
