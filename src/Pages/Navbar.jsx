@@ -43,7 +43,7 @@ function Navbar() {
                   {["Sign In", "Buy Now"].map((label) => (
                     <button
                       key={label}
-                      className={`cursor-pointer text-left px-3 py-1 rounded-lg border transition-colors duration-500 
+                      className={`cursor-pointer text-left px-3 py-2 rounded-lg border transition-colors duration-500 
                           ${
                             label === "Buy Now"
                               ? "border-black text-black bg-transparent hover:bg-black hover:text-white"
@@ -55,7 +55,7 @@ function Navbar() {
                   ))}
                 </div>
 
-                <button className="cursor-pointer text-left px-3 py-1 rounded-lg border border-black bg-black text-white transition-colors duration-150 hover:bg-gray-900 ">
+                <button className="cursor-pointer text-left px-3 py-2 rounded-lg border border-black bg-black text-white transition-colors duration-150 hover:bg-gray-900 ">
                   Free Trial
                 </button>
 
