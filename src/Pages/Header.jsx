@@ -29,8 +29,8 @@ function Header() {
             </a>
           </div>
 
-          <div className="relative flex items-center justify-between gap-6 text-xs z-55 xl:mr-20 2xl:mr-35 ">
-            <nav className="hidden xl:flex items-center gap-6 text-xs xl:w-[450px] ">
+          <div className="relative flex items-center justify-between gap-6 text-xs z-55 xl:mr-20 2xl:mr-50 ">
+            <nav className="hidden xl:flex items-center gap-6 text-xs xl:w-[450px] 2xl:-mr-10">
               {navLinks.map((link) => (
                 <a
                   key={link.title}
@@ -41,6 +41,7 @@ function Header() {
                 </a>
               ))}
             </nav>
+
 
             {[
               { title: "Account", icon: FiUser },
@@ -56,6 +57,7 @@ function Header() {
                 <link.icon size={20} />
               </a>
             ))}
+
 
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
