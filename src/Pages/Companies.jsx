@@ -21,7 +21,7 @@ function Companies() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 746);
+      setIsMobile(window.innerWidth < 768);
       setWidth(window.innerWidth);
     };
     window.addEventListener('resize', handleResize);

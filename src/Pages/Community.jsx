@@ -67,11 +67,12 @@ function Community() {
     loading="lazy"
     className="
       w-full 
-      max-w-[343px] aspect-[343/159]
-      sm:max-w-[696px] max-h-[365px] sm:aspect-[562/365]
-      md:max-w-[550px] md:max-h-[511px] md:aspect-[350/511]
-      lg:max-w-[734px] lg:max-h-[341px] lg:aspect-[734/364]
-      xl:max-w-[881px] xl:min-h-[410px]  xl:aspect-[882/410]
+      max-w-[343px] aspect-[343/209]
+      sm:max-w-[696px] max-h-[323px] sm:aspect-[696/323]
+      md:max-w-[550px] md:max-h-[511px] md:aspect-[550/511]
+      lg:max-w-[733px] lg:max-h-[341px] lg:aspect-[733/341]
+
+      2xl:max-w-[881px] 2xl:min-h-[410px]  2xl:aspect-[882/410]
       object-contain
     "
   />
