@@ -16,12 +16,12 @@ function Community() {
         z-0" />
 
         {/* Left Side: Text and Form */}
-        <div   className="flex flex-col items-center md:items-start gap-6 md:gap-5 lg:gap-4 xl:gap-6 
+        <div   className="flex flex-col items-center md:items-start gap-6 sm:gap-4 md:gap-5 lg:gap-4 xl:gap-6 
             text-base sm:text-lg max-w-none 
             w-[343px] h-[350px] sm:w-[696px] sm:h-[258px] md:w-[400px] md:h-[298px] 
             lg:w-[514px] lg:h-[312px] xl:w-[633px] xl:h-[276px] 
             min-w-[370px] overflow-hidden flex-shrink-0"        >
-          <h2 className=" w-[353px]  min-h-[84px] font-semibold text-[30px] sm:text-[36px] md:text-4xl  text-center md:text-left sm:w-full md:text-[32px] md:w-[350px] 2xl:w-[450px] tracking-[-1px] ">
+          <h2 className=" w-[353px]   font-semibold text-[30px] sm:text-[36px] md:text-4xl  text-center md:text-left sm:w-full md:text-[32px] md:w-[350px] 2xl:w-[450px] tracking-[-1px] ">
             <span className="text-gray-900">Join Our </span>
             <br className="hidden [@media(min-width:1596px)]:block" />
             <span className="bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent">
