@@ -19,7 +19,7 @@ function Navbar() {
       <nav className="w-full bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-200 sticky top-0 z-40">
         {/* Center container constrained to exactly 1536px */}
         <div className="w-full flex justify-center">
-          <div className="w-full max-w-[1536px] px-4 sm:px-6 lg:px-8 2xl:px-0 overflow-hidden">
+          <div className="w-full max-w-[1536px] px-4 sm:px-6 lg:px-8 2xl:px-0 overflow-visible">
             {/* Set navbar text size to 14px */}
             <div className="h-12 sm:h-14 flex items-center justify-between text-[14px]">
               
